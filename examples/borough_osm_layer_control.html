@@ -28,24 +28,20 @@
 			var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
 				streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr});
 
-			var boroughboundary = new L.GeoJSON.AJAX("../layers/boundary.geojson");
-			
 			var boroughboundarystyle ={
 				"color": "#000000",
 				"weight": 4,
 				"opacity": 1,
 				"fillColor":"#000000",
 				"fillOpacity": 0
-				};
+				};			
 			
-			var styledboroughboundary = (boroughboundary, {
-			style: boroughboundarystyle
-			});
+			var boroughboundary = new L.GeoJSON.AJAX("../layers/boundary.geojson", {style: boroughboundarystyle});
 			
 			var mymap = L.map('mapid', {
 			center: [53.390784,-2.119261],
 			zoom: 12,
-			layers:[styledboroughboundary, streets]
+			layers:[boroughboundary, streets]
 			});	
 			
 			var baseLayers = {
