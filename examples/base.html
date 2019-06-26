@@ -9,7 +9,7 @@
 		crossorigin=""/>
 		
 		<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
-		<script src="leaflet.ajax.min.js"></script>
+		<script src="https://stockportmaps.github.io/leaflet/leaflet.ajax.min.js"></script>
 	</head>
 	
 	<body>
@@ -25,7 +25,7 @@
 			var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
 				streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr});
 	
-			var test = new L.GeoJSON.AJAX("boundary.geojson"); 
+			var test = new L.GeoJSON.AJAX("../layers/boundary.geojson"); 
 			
 			var mymap = L.map('mapid', {
 			center: [53.390784,-2.119261],
