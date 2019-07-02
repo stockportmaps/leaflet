@@ -37,7 +37,7 @@
 			
 			var borough = new L.GeoJSON.AJAX("../layers/boundary.geojson", {style: boroughboundarystyle}); 
 			
-			function getColor(d) {
+			function getColor_committee(d) {
 				switch 	(d) { 	case 'Bramhall and Cheadle Hulme South' : 
 									return '#a6cee3' ;
 								case 'Cheadle' : 
@@ -57,7 +57,7 @@
 						
 			function wardstyle(feature) {
 				return {
-					fillColor: getColor(feature.properties.committee),
+					fillColor: getColor_committee(feature.properties.committee),
 					weight: 2,
 					opacity: 1,
 					color: 'white',
