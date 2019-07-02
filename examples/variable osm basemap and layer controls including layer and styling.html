@@ -28,6 +28,16 @@
 			var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
 				streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr});
 
+			var boroughboundarystyle ={
+				"color": "#000000",
+				"weight": 4,
+				"opacity": 1,
+				"fillColor":"#000000",
+				"fillOpacity": 0
+				};			
+			
+			var test = new L.GeoJSON.AJAX("../layers/boundary.geojson", {style: boroughboundarystyle}); 
+			
 			var nationalcharacterareasstyle = {
 				"color": "#232323",
 				"weight": 2,
