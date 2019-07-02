@@ -27,6 +27,22 @@
 			var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
 				streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr});
 	
+			var info = L.control();
+			
+			info.onAdd = function (mymap) {
+				this._div = L.DomUtil.create('div','info');
+				this.update();
+			};
+			
+			info.update = function (props) {
+				this._div.innerHTML = '<h4> Stockport Wards</h4>' + (props ?
+					'<b>' + props.ward_name + '</b><br />' + 'Councillor 1: ' + props.cllr_1 + props.cllr_1_party <br /> + 'Councillor 2: ' + props.cllr_2 + props.cllr_2_party <br /> + 'Councillor 3: ' + props.cllr_3 + props.cllr_3_party
+					: 'Hover over ward');
+				};
+				
+				info.addTo(mymap);
+					
+			
 			var boroughboundarystyle ={
 				"color": "#000000",
 				"weight": 4,
