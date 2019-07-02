@@ -66,19 +66,6 @@
 					};
 				}
 			
-			var wards = new L.GeoJSON.AJAX("../layers/ward.geojson", {style: wardstyle});
-			
-			var baseLayers = {
-				"Streets": streets,
-				"Grayscale": grayscale
-			};
-			
-			var mymap = L.map('mapid', {
-			center: [53.390784,-2.119261],
-			zoom: 12,
-			layers:[streets, borough, wards]
-			});				
-			
 			function highlightFeature(e) {
 				var layer = e.target;
 				
@@ -109,7 +96,22 @@
 					click: zoomToFeature
 				});
 			}			
+						
 			
+			var wards = new L.GeoJSON.AJAX("../layers/ward.geojson", {style: wardstyle, onEachFeature: onEachFeature});
+			
+			var baseLayers = {
+				"Streets": streets,
+				"Grayscale": grayscale
+			};
+			
+			var mymap = L.map('mapid', {
+			center: [53.390784,-2.119261],
+			zoom: 12,
+			layers:[streets, borough, wards]
+			});				
+			
+
 			L.control.layers(baseLayers).addTo(mymap)
 			
 		</script>
