@@ -66,6 +66,8 @@
 					};
 				}
 			
+			var wards;
+			
 			function highlightFeature(e) {
 				var layer = e.target;
 				
@@ -98,7 +100,7 @@
 			}			
 						
 			
-			var wards = new L.GeoJSON.AJAX("../layers/ward.geojson", {style: wardstyle, onEachFeature: onEachFeature});
+			wards = new L.GeoJSON.AJAX("../layers/ward.geojson", {style: wardstyle, onEachFeature: onEachFeature});
 			
 			var baseLayers = {
 				"Streets": streets,
