@@ -36,7 +36,7 @@
 				"fillOpacity": 0
 				};			
 			
-			var test = new L.GeoJSON.AJAX("../layers/boundary.geojson", {style: boroughboundarystyle}); 
+			var boundary = new L.GeoJSON.AJAX("../layers/boundary.geojson", {style: boroughboundarystyle}); 
 			
 			var nationalcharacterareasstyle = {
 				"color": "#232323",
@@ -53,7 +53,7 @@
 			var mymap = L.map('mapid', {
 			center: [53.390784,-2.119261],
 			zoom: 12,
-			layers:[streets]
+			layers:[streets, boundary]
 			});	
 			
 			var baseLayers = {
