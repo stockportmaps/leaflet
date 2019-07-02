@@ -10,6 +10,8 @@
 		
 		<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
 	
+		<script src="../leaflet.ajax.min.js"></script>
+	
 	</head>
 	
 	<body>
@@ -25,20 +27,45 @@
 
 			var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
 				streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr});
-	
+
+			var boroughboundarystyle ={
+				"color": "#000000",
+				"weight": 4,
+				"opacity": 1,
+				"fillColor":"#000000",
+				"fillOpacity": 0
+				};			
+			
+			var boundary = new L.GeoJSON.AJAX("../layers/boundary.geojson", {style: boroughboundarystyle}); 
+			
+			var nationalcharacterareasstyle = {
+				"color": "#232323",
+				"weight": 2,
+				"opacity": 1,
+				"fillColor": "#ffffb3",
+				"fillOpacity":0,
+				"dashArray": '15,7,7',
+				"dashOffset": '0'
+			};
+			
+			var nationalcharacterareas = new L.GeoJSON.AJAX("../layers/national%20character%20areas.geojson", {style: nationalcharacterareasstyle});
+			
 			var mymap = L.map('mapid', {
 			center: [53.390784,-2.119261],
 			zoom: 12,
-			layers:[streets]
+			layers:[streets, boundary]
 			});	
 			
 			var baseLayers = {
 				"Streets": streets,
 				"Grayscale": grayscale
-				
 			};
 			
-			L.control.layers(baseLayers).addTo(mymap)
+			var overlays = {
+				"National Character Areas": nationalcharacterareas
+			};
+			
+			L.control.layers(baseLayers, overlays).addTo(mymap);
 
 		</script>
 	
