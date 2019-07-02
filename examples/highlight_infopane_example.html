@@ -38,13 +38,22 @@
 			var borough = new L.GeoJSON.AJAX("../layers/boundary.geojson", {style: boroughboundarystyle}); 
 			
 			function getColor(d) {
-				return 	d = Bramhall and Cheadle Hulme South ? '#a6cee3' :
-						d = Cheadle ? '#1f78b4' :
-						d = Heatons and Reddish ? '#b2df8a' :
-						d = Marple ? '#33a02c' :
-						d = Stepping Hill ? '#fb9a99':
-						d = Stockport Central ? '#e31a1c':
-						d = Werneth ? '#fdbf6f' ;
+				switch 	(d) { 	case 'Bramhall and Cheadle Hulme South' : 
+									return '#a6cee3' ;
+								case 'Cheadle' : 
+									return '#1f78b4' ;
+								case 'Heatons and Reddish' :
+									return '#b2df8a' ;
+								case 'Marple' :
+									return '#33a02c' ;
+								case 'Stepping Hill' :
+									return '#fb9a99';
+								case 'Stockport Central' :
+									return '#e31a1c';
+								case 'Werneth' :
+									return'#fdbf6f' ;;
+							}
+						};
 						
 			function style(feature) {
 				return {
