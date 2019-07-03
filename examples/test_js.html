@@ -1,0 +1,190 @@
+Skip to content
+Why GitHub? 
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+
+Sign in
+Sign up
+0 0 0 stockportmaps/leafletgithub
+ Code  Issues 0  Pull requests 0  Projects 0  Security  Insights
+Join GitHub today
+GitHub is home to over 36 million developers working together to host and review code, manage projects, and build software together.
+
+leafletgithub/examples/highlight_infopane_example.html
+@stockportmaps stockportmaps Click to Zoom - fix
+81cd538 1 hour ago
+157 lines (119 sloc)  4.01 KB
+    
+<html>
+	
+	<title>Highlight and Info Pane Example</title>
+
+	<head>
+	
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+		integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+		crossorigin=""/>
+		
+		<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+		
+		<script src="../leaflet.ajax.min.js"></script>
+		
+		<style> .info {
+		    padding: 6px 8px;
+			font: 14px/16px Arial, Helvetica, sans-serif;
+			background: white;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			border-radius: 5px;
+}
+				.info h4 {
+			margin: 0 0 5px;
+			color: #777;
+}
+		</style>
+
+	</head>
+	
+	<body>
+	
+		<div id="mapid" style="width: 100%; height: 100%;"></div>
+		
+		<script>
+			
+			var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+			mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+			
+			var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
+				streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr});
+	
+			var info = L.control();
+			
+			info.onAdd = function (mymap) {
+				this._div = L.DomUtil.create('div','info');
+				this.update();
+				return this._div;
+			};
+			
+			info.update = function (props) {
+				this._div.innerHTML = '<h4> Stockport Wards</h4>' + (props ?
+					'<b>' + props.ward_name + '</b><br />' + 'Councillor 1: ' + props.cllr_1 + props.cllr_1_party + '<br />' + 'Councillor 2: ' + props.cllr_2 + props.cllr_2_party + '<br />' + 'Councillor 3: ' + props.cllr_3 + props.cllr_3_party
+					: 'Hover over a ward');
+				};
+					
+			
+			
+			var boroughboundarystyle ={
+				"color": "#000000",
+				"weight": 4,
+				"opacity": 1,
+				"fillColor":"#000000",
+				"fillOpacity": 0
+				};			
+			
+			var borough = new L.GeoJSON.AJAX("../layers/boundary.geojson", {style: boroughboundarystyle}); 
+			
+			function getColor_committee(d) {
+				switch 	(d) { 	case 'Bramhall and Cheadle Hulme South' : 
+									return '#a6cee3' ;
+								case 'Cheadle' : 
+									return '#1f78b4' ;
+								case 'Heatons and Reddish' :
+									return '#b2df8a' ;
+								case 'Marple' :
+									return '#33a02c' ;
+								case 'Stepping Hill' :
+									return '#fb9a99';
+								case 'Stockport Central' :
+									return '#e31a1c';
+								case 'Werneth' :
+									return'#fdbf6f' ;;
+							}
+						};
+						
+			function wardstyle(feature) {
+				return {
+					fillColor: getColor_committee(feature.properties.committee),
+					weight: 2,
+					opacity: 1,
+					color: 'white',
+					dashArray: '3',
+					fillOpacity: 0.5
+					};
+				}
+			
+			var wards;
+			
+			function highlightFeature(e) {
+				var layer = e.target;
+				
+				layer.setStyle({
+					weight: 5,
+					color: '#666',
+					dashArray: '',
+					fillOpacity: 0.7
+				});
+				
+				if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+					layer.bringToFront();
+				}
+				
+				info.update();
+			}
+			
+			function resetHighlight (e) {
+				wards.resetStyle(e.target);
+				info.update();
+			}
+			
+			function zoomToFeature(e) {
+				mymap.fitBounds(e.target.getBounds());
+			}
+			
+			function onEachFeature(feature, layer) {
+				layer.on({
+					mouseover: highlightFeature,
+					mouseout: resetHighlight,
+					click: zoomToFeature
+				});
+			}			
+						
+			
+			wards = new L.GeoJSON.AJAX("../layers/ward.geojson", {style: wardstyle, onEachFeature: onEachFeature});
+			
+			var baseLayers = {
+				"Streets": streets,
+				"Grayscale": grayscale
+			};
+			
+			var mymap = L.map('mapid', {
+			center: [53.390784,-2.119261],
+			zoom: 12,
+			layers:[streets, borough, wards]
+			});				
+			
+			L.control.layers(baseLayers).addTo(mymap)
+			
+		info.addTo(map);
+			
+		</script>
+	
+	</body>
+
+</html>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
