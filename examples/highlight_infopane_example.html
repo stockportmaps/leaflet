@@ -146,6 +146,30 @@
 			layers:[streets, borough, wards]
 			});				
 			
+			var legend = L.control({position: 'bottomright'});
+				
+				legend .onAdd = function (mymap) {
+				
+					var div = L.DomUtil.create('div', 'infolegend'),
+						categories = ['Bramhall and Cheadle Hulme South', 'Cheadle', 'Heatons and Reddish', 'Marple', 'Stepping Hill', 'Stockport Central', 'Werneth'],
+						labels = ['<b>Committee Areas:</b>'];
+						
+					
+					for (var i = 0; i < categories.length; i++) {
+						
+						div.innerHTML +=
+						labels.push(
+							'<i style="background:' + getColor_committee(categories[i]) + '"></i> ' +
+							(categories[i] ? categories[i] : '+'));
+
+					}
+
+					div.innerHTML = labels.join('<br>');
+					return div;
+			};
+
+			legend.addTo(map);
+			
 			L.control.layers(baseLayers).addTo(mymap)
 			
 			info.addTo(mymap);
