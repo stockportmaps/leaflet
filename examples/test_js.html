@@ -67,6 +67,7 @@ leafletgithub/examples/highlight_infopane_example.html
 			info.onAdd = function (mymap) {
 				this._div = L.DomUtil.create('div','info');
 				this.update();
+				return this._div;
 			};
 			
 			info.update = function (props) {
@@ -75,6 +76,8 @@ leafletgithub/examples/highlight_infopane_example.html
 					: 'Hover over a ward');
 				};
 					
+			info.addTo(map);
+			
 			var boroughboundarystyle ={
 				"color": "#000000",
 				"weight": 4,
