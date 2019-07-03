@@ -145,29 +145,6 @@
 			zoom: 12,
 			layers:[streets, borough, wards]
 			});				
-			
-			var legend = L.control({position: 'bottomright'});
-				
-				legend .onAdd = function (mymap) {
-				
-					var div = L.DomUtil.create('div', 'infolegend'),
-						categories = ['Bramhall and Cheadle Hulme South', 'Cheadle', 'Heatons and Reddish', 'Marple', 'Stepping Hill', 'Stockport Central', 'Werneth'],
-						labels = ['<b>Committee Areas:</b>']
-						from, to;
-						
-					for (var i = 0; i < categories.length; i++) {
-						from = categories[i];
-						to = categories[i + 1];
-						
-						labels.push(
-							'<i style="background:' + getColor_committee(from + 1) + '"></i> ' +
-							from + (to ? '&ndash:' + to : '+'));
-
-					}
-
-					div.innerHTML = labels.join('<br>');
-					return div;
-			};
 
 			legend.addTo(mymap);
 			
