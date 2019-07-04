@@ -133,16 +133,13 @@
 				}
 
 			
-			function onEachFeature(feature, layer) {
-				layer.on({
-					mouseover: highlightFeature,
-					mouseout: resetHighlight,
-					click: zoomToFeature
-				});
-				layer.on({
-					click: popups
-				});
-			}				
+			//function onEachFeature(feature, layer) {
+				//layer.on({
+					//mouseover: highlightFeature,
+					//mouseout: resetHighlight,
+					//click: zoomToFeature
+				//});
+			//}				
 			
 			shlaa18 = new L.GeoJSON.AJAX("../layers/shlaa18.json", {style: shlaa18style, onEachFeature: onEachFeature});
 			
