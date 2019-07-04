@@ -128,8 +128,8 @@
 				mymap.fitBounds(e.target.getBounds());
 			}
 			
-			function popups (e) {
-				layer.bindPopup("<b>Hello :)</b>");
+			function popups (feature, layer) {
+				layer.bindPopup("<b>Hello :)</b>" + <br> feature.properties.Site_reference);
 				}
 
 			
