@@ -128,17 +128,11 @@
 				mymap.fitBounds(e.target.getBounds());
 			}
 			
-			function popups (feature, layer, properties) {
-				layer.bindPopup("<b>Hello :)</b>");
-				}
-
-			
 			function onEachFeature(feature, layer) {
 				layer.on({
-					//mouseover: highlightFeature,
-					//mouseout: resetHighlight,
-					//click: zoomToFeature
-					click: popups
+					mouseover: highlightFeature,
+					mouseout: resetHighlight,
+					click: zoomToFeature
 				});
 			}				
 			
