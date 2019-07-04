@@ -134,8 +134,11 @@
 					mouseout: resetHighlight,
 					click: zoomToFeature
 				});
+				
+												{
+				layer.bindpopup ("Hello")
+				};
 			}			
-						
 			
 			shlaa18 = new L.GeoJSON.AJAX("../layers/shlaa18.json", {style: shlaa18style, onEachFeature: onEachFeature});
 			
@@ -158,7 +161,7 @@
 				legend.onAdd = function (mymap) {
 
 			var div = L.DomUtil.create('div', 'info legend');
-			labels = ['<strong>Committee Areas</strong>'],
+			labels = ['<strong>Strategic Housing Land Availability Assessment</strong>'],
 			categories = ['The site is not currently developable.','The site is developable.','The site is deliverable.'];
 
 			for (var i = 0; i < categories.length; i++) {
