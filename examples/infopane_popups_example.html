@@ -133,15 +133,18 @@
 				}
 
 			
-			//function onEachFeature(feature, layer) {
-				//layer.on({
-					//mouseover: highlightFeature,
-					//mouseout: resetHighlight,
-					//click: zoomToFeature
-				//});
-			//}				
+			function onEachFeature(feature, layer) {
+				layer.on({
+					mouseover: highlightFeature,
+					mouseout: resetHighlight,
+					click: zoomToFeature
+				});
+				layer.on({
+					click: popups
+				});
+			}				
 			
-			shlaa18 = new L.GeoJSON.AJAX("../layers/shlaa18.json", {style: shlaa18style, onEachFeature: popups});
+			shlaa18 = new L.GeoJSON.AJAX("../layers/shlaa18.json", {style: shlaa18style, onEachFeature: onEachFeature});
 			
 			var baseLayers = {
 				"Streets": streets,
