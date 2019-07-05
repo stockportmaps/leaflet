@@ -127,8 +127,8 @@
 			function zoomToFeature (e) {
 				mymap.fitBounds(e.target.getBounds());
 			}
-			
-			function onEachFeature(layer, feature) {
+
+			function onEachFeature(feature, layer) {
 				layer.on({
 					mouseover: highlightFeature,
 					mouseout: resetHighlight,
