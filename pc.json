@@ -10,9 +10,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 857750,
-				"postcode" : "M19 1RR",
-				"_long" : "-2.2136952451004746",
-				"_lat" : "53.41610618320029"
+				"postcode" : "M19 1RR"
 			}
 		},
 		{
@@ -23,9 +21,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 857754,
-				"postcode" : "M19 1RW",
-				"_long" : "-2.214133183704613",
-				"_lat" : "53.41342688235263"
+				"postcode" : "M19 1RW"
 			}
 		},
 		{
@@ -36,9 +32,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 857780,
-				"postcode" : "M19 1TF",
-				"_long" : "-2.2132702606175365",
-				"_lat" : "53.41837205178319"
+				"postcode" : "M19 1TF"
 			}
 		},
 		{
@@ -49,9 +43,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 857782,
-				"postcode" : "M19 1TL",
-				"_long" : "-2.2144714480823704",
-				"_lat" : "53.4118802856533"
+				"postcode" : "M19 1TL"
 			}
 		},
 		{
@@ -62,9 +54,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 857995,
-				"postcode" : "M19 2QD",
-				"_long" : "-2.1819503782847134",
-				"_lat" : "53.43401045472309"
+				"postcode" : "M19 2QD"
 			}
 		},
 		{
@@ -75,9 +65,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 858030,
-				"postcode" : "M19 2SD",
-				"_long" : "-2.1847475074486424",
-				"_lat" : "53.433430881142115"
+				"postcode" : "M19 2SD"
 			}
 		},
 		{
@@ -88,9 +76,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 858032,
-				"postcode" : "M19 2SQ",
-				"_long" : "-2.1881050042823857",
-				"_lat" : "53.43365033621049"
+				"postcode" : "M19 2SQ"
 			}
 		},
 		{
@@ -101,9 +87,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 858075,
-				"postcode" : "M19 2WE",
-				"_long" : "-2.1755362109904373",
-				"_lat" : "53.433507736195175"
+				"postcode" : "M19 2WE"
 			}
 		},
 		{
@@ -114,9 +98,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 858214,
-				"postcode" : "M19 3JL",
-				"_long" : "-2.1732191171764486",
-				"_lat" : "53.44480070671181"
+				"postcode" : "M19 3JL"
 			}
 		},
 		{
@@ -127,9 +109,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 858215,
-				"postcode" : "M19 3JN",
-				"_long" : "-2.1722409043885356",
-				"_lat" : "53.44490100020243"
+				"postcode" : "M19 3JN"
 			}
 		},
 		{
@@ -140,9 +120,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 858221,
-				"postcode" : "M19 3JU",
-				"_long" : "-2.172107262564648",
-				"_lat" : "53.44535960433714"
+				"postcode" : "M19 3JU"
 			}
 		},
 		{
@@ -153,9 +131,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 858289,
-				"postcode" : "M19 3TD",
-				"_long" : "-2.170802074129156",
-				"_lat" : "53.446520995122185"
+				"postcode" : "M19 3TD"
 			}
 		},
 		{
@@ -166,9 +142,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 858293,
-				"postcode" : "M19 3WH",
-				"_long" : "-2.172216920524018",
-				"_lat" : "53.446411093493346"
+				"postcode" : "M19 3WH"
 			}
 		},
 		{
@@ -179,9 +153,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 858304,
-				"postcode" : "M19 3YN",
-				"_long" : "-2.169571378881241",
-				"_lat" : "53.447502496494835"
+				"postcode" : "M19 3YN"
 			}
 		},
 		{
@@ -192,9 +164,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 858306,
-				"postcode" : "M19 3ZF",
-				"_long" : "-2.170955786234234",
-				"_lat" : "53.44730276875002"
+				"postcode" : "M19 3ZF"
 			}
 		},
 		{
@@ -205,9 +175,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 860946,
-				"postcode" : "M22 4QR",
-				"_long" : "-2.2453400933344674",
-				"_lat" : "53.38788444102118"
+				"postcode" : "M22 4QR"
 			}
 		},
 		{
@@ -218,9 +186,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336091,
-				"postcode" : "SK1 1AA",
-				"_long" : "-2.161560446673326",
-				"_lat" : "53.40757773658387"
+				"postcode" : "SK1 1AA"
 			}
 		},
 		{
@@ -231,9 +197,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336092,
-				"postcode" : "SK1 1AB",
-				"_long" : "-2.161560446673326",
-				"_lat" : "53.40757773658387"
+				"postcode" : "SK1 1AB"
 			}
 		},
 		{
@@ -244,9 +208,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336093,
-				"postcode" : "SK1 1AL",
-				"_long" : "-2.1604707719990373",
-				"_lat" : "53.40981732578678"
+				"postcode" : "SK1 1AL"
 			}
 		},
 		{
@@ -257,9 +219,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336094,
-				"postcode" : "SK1 1AP",
-				"_long" : "-2.1520729143668675",
-				"_lat" : "53.40876774573575"
+				"postcode" : "SK1 1AP"
 			}
 		},
 		{
@@ -270,9 +230,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336095,
-				"postcode" : "SK1 1AQ",
-				"_long" : "-2.156155164959564",
-				"_lat" : "53.41030845158401"
+				"postcode" : "SK1 1AQ"
 			}
 		},
 		{
@@ -283,9 +241,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336096,
-				"postcode" : "SK1 1DA",
-				"_long" : "-2.16087182001768",
-				"_lat" : "53.4084595343192"
+				"postcode" : "SK1 1DA"
 			}
 		},
 		{
@@ -296,9 +252,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336097,
-				"postcode" : "SK1 1DH",
-				"_long" : "-2.159430007645071",
-				"_lat" : "53.40907268995399"
+				"postcode" : "SK1 1DH"
 			}
 		},
 		{
@@ -309,9 +263,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336098,
-				"postcode" : "SK1 1DL",
-				"_long" : "-2.1609470672617888",
-				"_lat" : "53.40846842077178"
+				"postcode" : "SK1 1DL"
 			}
 		},
 		{
@@ -322,9 +274,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336099,
-				"postcode" : "SK1 1DS",
-				"_long" : "-2.159863961322007",
-				"_lat" : "53.40846089521443"
+				"postcode" : "SK1 1DS"
 			}
 		},
 		{
@@ -335,9 +285,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336100,
-				"postcode" : "SK1 1DU",
-				"_long" : "-2.1613841886456395",
-				"_lat" : "53.40870152603919"
+				"postcode" : "SK1 1DU"
 			}
 		},
 		{
@@ -348,9 +296,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336101,
-				"postcode" : "SK1 1DY",
-				"_long" : "-2.157987022207517",
-				"_lat" : "53.40938022390895"
+				"postcode" : "SK1 1DY"
 			}
 		},
 		{
@@ -361,9 +307,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336102,
-				"postcode" : "SK1 1EB",
-				"_long" : "-2.1581394174494553",
-				"_lat" : "53.40991033667856"
+				"postcode" : "SK1 1EB"
 			}
 		},
 		{
@@ -374,9 +318,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336103,
-				"postcode" : "SK1 1ED",
-				"_long" : "-2.161560446673326",
-				"_lat" : "53.40757773658387"
+				"postcode" : "SK1 1ED"
 			}
 		},
 		{
@@ -387,9 +329,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336104,
-				"postcode" : "SK1 1EF",
-				"_long" : "-2.157567146006118",
-				"_lat" : "53.40974031768627"
+				"postcode" : "SK1 1EF"
 			}
 		},
 		{
@@ -400,9 +340,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336105,
-				"postcode" : "SK1 1EG",
-				"_long" : "-2.156258164114426",
-				"_lat" : "53.40967912835012"
+				"postcode" : "SK1 1EG"
 			}
 		},
 		{
@@ -413,9 +351,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336106,
-				"postcode" : "SK1 1EH",
-				"_long" : "-2.1567279336324265",
-				"_lat" : "53.41061330263189"
+				"postcode" : "SK1 1EH"
 			}
 		},
 		{
@@ -426,9 +362,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336107,
-				"postcode" : "SK1 1EJ",
-				"_long" : "-2.1574465025625535",
-				"_lat" : "53.40965958209288"
+				"postcode" : "SK1 1EJ"
 			}
 		},
 		{
@@ -439,9 +373,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336108,
-				"postcode" : "SK1 1EL",
-				"_long" : "-2.155926460490513",
-				"_lat" : "53.40947283119815"
+				"postcode" : "SK1 1EL"
 			}
 		},
 		{
@@ -452,9 +384,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336109,
-				"postcode" : "SK1 1EN",
-				"_long" : "-2.1563716347510136",
-				"_lat" : "53.41190810111793"
+				"postcode" : "SK1 1EN"
 			}
 		},
 		{
@@ -465,9 +395,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336110,
-				"postcode" : "SK1 1ES",
-				"_long" : "-2.156581787323917",
-				"_lat" : "53.411781986779864"
+				"postcode" : "SK1 1ES"
 			}
 		},
 		{
@@ -478,9 +406,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336111,
-				"postcode" : "SK1 1EU",
-				"_long" : "-2.1574689094010613",
-				"_lat" : "53.41165497661048"
+				"postcode" : "SK1 1EU"
 			}
 		},
 		{
@@ -491,9 +417,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336112,
-				"postcode" : "SK1 1EW",
-				"_long" : "-2.156429108107321",
-				"_lat" : "53.41117097709239"
+				"postcode" : "SK1 1EW"
 			}
 		},
 		{
@@ -504,9 +428,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336113,
-				"postcode" : "SK1 1EZ",
-				"_long" : "-2.156461667330973",
-				"_lat" : "53.411845063811576"
+				"postcode" : "SK1 1EZ"
 			}
 		},
 		{
@@ -517,9 +439,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336114,
-				"postcode" : "SK1 1FE",
-				"_long" : "-2.155098669271907",
-				"_lat" : "53.40935706606882"
+				"postcode" : "SK1 1FE"
 			}
 		},
 		{
@@ -530,9 +450,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336115,
-				"postcode" : "SK1 1HD",
-				"_long" : "-2.157960629517037",
-				"_lat" : "53.410377971335315"
+				"postcode" : "SK1 1HD"
 			}
 		},
 		{
@@ -543,9 +461,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336116,
-				"postcode" : "SK1 1HE",
-				"_long" : "-2.160797385856021",
-				"_lat" : "53.408666368338686"
+				"postcode" : "SK1 1HE"
 			}
 		},
 		{
@@ -556,9 +472,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336117,
-				"postcode" : "SK1 1HF",
-				"_long" : "-2.1577942885215586",
-				"_lat" : "53.41014449407427"
+				"postcode" : "SK1 1HF"
 			}
 		},
 		{
@@ -569,9 +483,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336118,
-				"postcode" : "SK1 1HG",
-				"_long" : "-2.159177799125586",
-				"_lat" : "53.4100168104111"
+				"postcode" : "SK1 1HG"
 			}
 		},
 		{
@@ -582,9 +494,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336119,
-				"postcode" : "SK1 1HH",
-				"_long" : "-2.1583517230982077",
-				"_lat" : "53.410368462185"
+				"postcode" : "SK1 1HH"
 			}
 		},
 		{
@@ -595,9 +505,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336120,
-				"postcode" : "SK1 1HL",
-				"_long" : "-2.158816293589299",
-				"_lat" : "53.40989145672602"
+				"postcode" : "SK1 1HL"
 			}
 		},
 		{
@@ -608,9 +516,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336121,
-				"postcode" : "SK1 1JE",
-				"_long" : "-2.156155164959564",
-				"_lat" : "53.41030845158401"
+				"postcode" : "SK1 1JE"
 			}
 		},
 		{
@@ -621,9 +527,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336122,
-				"postcode" : "SK1 1JF",
-				"_long" : "-2.1561551978536087",
-				"_lat" : "53.41031743993681"
+				"postcode" : "SK1 1JF"
 			}
 		},
 		{
@@ -634,9 +538,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336123,
-				"postcode" : "SK1 1JJ",
-				"_long" : "-2.155101577031447",
-				"_lat" : "53.41015702946216"
+				"postcode" : "SK1 1JJ"
 			}
 		},
 		{
@@ -647,9 +549,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336124,
-				"postcode" : "SK1 1JP",
-				"_long" : "-2.1565038317028065",
-				"_lat" : "53.41103605273225"
+				"postcode" : "SK1 1JP"
 			}
 		},
 		{
@@ -660,9 +560,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336125,
-				"postcode" : "SK1 1JQ",
-				"_long" : "-2.155794059619598",
-				"_lat" : "53.4102909490208"
+				"postcode" : "SK1 1JQ"
 			}
 		},
 		{
@@ -673,9 +571,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336126,
-				"postcode" : "SK1 1JT",
-				"_long" : "-2.157345675355084",
-				"_lat" : "53.410873149422486"
+				"postcode" : "SK1 1JT"
 			}
 		},
 		{
@@ -686,9 +582,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336127,
-				"postcode" : "SK1 1JY",
-				"_long" : "-2.1560967672962836",
-				"_lat" : "53.41079390171325"
+				"postcode" : "SK1 1JY"
 			}
 		},
 		{
@@ -699,9 +593,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336128,
-				"postcode" : "SK1 1JZ",
-				"_long" : "-2.1570898031685344",
-				"_lat" : "53.41083753450573"
+				"postcode" : "SK1 1JZ"
 			}
 		},
 		{
@@ -712,9 +604,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336129,
-				"postcode" : "SK1 1LA",
-				"_long" : "-2.157211078490498",
-				"_lat" : "53.41108904915899"
+				"postcode" : "SK1 1LA"
 			}
 		},
 		{
@@ -725,9 +615,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336130,
-				"postcode" : "SK1 1LF",
-				"_long" : "-2.1578146839437493",
-				"_lat" : "53.41159159898694"
+				"postcode" : "SK1 1LF"
 			}
 		},
 		{
@@ -738,9 +626,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336131,
-				"postcode" : "SK1 1LH",
-				"_long" : "-2.1578452702532456",
-				"_lat" : "53.411726384296365"
+				"postcode" : "SK1 1LH"
 			}
 		},
 		{
@@ -751,9 +637,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336132,
-				"postcode" : "SK1 1LL",
-				"_long" : "-2.158311661977017",
-				"_lat" : "53.41173475208371"
+				"postcode" : "SK1 1LL"
 			}
 		},
 		{
@@ -764,9 +648,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336133,
-				"postcode" : "SK1 1LN",
-				"_long" : "-2.157948913336337",
-				"_lat" : "53.411276826699144"
+				"postcode" : "SK1 1LN"
 			}
 		},
 		{
@@ -777,9 +659,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336134,
-				"postcode" : "SK1 1LW",
-				"_long" : "-2.158491286380712",
-				"_lat" : "53.41149182584848"
+				"postcode" : "SK1 1LW"
 			}
 		},
 		{
@@ -790,9 +670,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336135,
-				"postcode" : "SK1 1LZ",
-				"_long" : "-2.16029042307692",
-				"_lat" : "53.409862511314856"
+				"postcode" : "SK1 1LZ"
 			}
 		},
 		{
@@ -803,9 +681,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336136,
-				"postcode" : "SK1 1NA",
-				"_long" : "-2.1587009626135734",
-				"_lat" : "53.411239870777145"
+				"postcode" : "SK1 1NA"
 			}
 		},
 		{
@@ -816,9 +692,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336137,
-				"postcode" : "SK1 1NB",
-				"_long" : "-2.1586854844104852",
-				"_lat" : "53.4111230422758"
+				"postcode" : "SK1 1NB"
 			}
 		},
 		{
@@ -829,9 +703,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336138,
-				"postcode" : "SK1 1NE",
-				"_long" : "-2.1585489564088163",
-				"_lat" : "53.410817619029466"
+				"postcode" : "SK1 1NE"
 			}
 		},
 		{
@@ -842,9 +714,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336139,
-				"postcode" : "SK1 1NF",
-				"_long" : "-2.1587442878108267",
-				"_lat" : "53.410754439358804"
+				"postcode" : "SK1 1NF"
 			}
 		},
 		{
@@ -855,9 +725,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336140,
-				"postcode" : "SK1 1NP",
-				"_long" : "-2.1615687513593547",
-				"_lat" : "53.409770895348174"
+				"postcode" : "SK1 1NP"
 			}
 		},
 		{
@@ -868,9 +736,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336141,
-				"postcode" : "SK1 1NT",
-				"_long" : "-2.1607588604997665",
-				"_lat" : "53.410419159226244"
+				"postcode" : "SK1 1NT"
 			}
 		},
 		{
@@ -881,9 +747,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336142,
-				"postcode" : "SK1 1NU",
-				"_long" : "-2.161686269671648",
-				"_lat" : "53.409024697801954"
+				"postcode" : "SK1 1NU"
 			}
 		},
 		{
@@ -894,9 +758,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336143,
-				"postcode" : "SK1 1NX",
-				"_long" : "-2.1590260270644994",
-				"_lat" : "53.40965747767601"
+				"postcode" : "SK1 1NX"
 			}
 		},
 		{
@@ -907,9 +769,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336144,
-				"postcode" : "SK1 1NZ",
-				"_long" : "-2.159010983974932",
-				"_lat" : "53.409657497816625"
+				"postcode" : "SK1 1NZ"
 			}
 		},
 		{
@@ -920,9 +780,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336145,
-				"postcode" : "SK1 1PD",
-				"_long" : "-2.159586352656764",
-				"_lat" : "53.410654438657794"
+				"postcode" : "SK1 1PD"
 			}
 		},
 		{
@@ -933,9 +791,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336146,
-				"postcode" : "SK1 1PE",
-				"_long" : "-2.1598549121850876",
-				"_lat" : "53.41006084307468"
+				"postcode" : "SK1 1PE"
 			}
 		},
 		{
@@ -946,9 +802,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336147,
-				"postcode" : "SK1 1PG",
-				"_long" : "-2.159917139906569",
-				"_lat" : "53.410609051795916"
+				"postcode" : "SK1 1PG"
 			}
 		},
 		{
@@ -959,9 +813,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336148,
-				"postcode" : "SK1 1PJ",
-				"_long" : "-2.159140815370763",
-				"_lat" : "53.41220104095012"
+				"postcode" : "SK1 1PJ"
 			}
 		},
 		{
@@ -972,9 +824,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336149,
-				"postcode" : "SK1 1PL",
-				"_long" : "-2.1610772478497555",
-				"_lat" : "53.411074881298525"
+				"postcode" : "SK1 1PL"
 			}
 		},
 		{
@@ -985,9 +835,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336150,
-				"postcode" : "SK1 1PN",
-				"_long" : "-2.158868751889595",
-				"_lat" : "53.41185984596628"
+				"postcode" : "SK1 1PN"
 			}
 		},
 		{
@@ -998,9 +846,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336151,
-				"postcode" : "SK1 1PP",
-				"_long" : "-2.159363755883757",
-				"_lat" : "53.4114726818531"
+				"postcode" : "SK1 1PP"
 			}
 		},
 		{
@@ -1011,9 +857,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336152,
-				"postcode" : "SK1 1PR",
-				"_long" : "-2.1597230221291643",
-				"_lat" : "53.41099581418328"
+				"postcode" : "SK1 1PR"
 			}
 		},
 		{
@@ -1024,9 +868,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336153,
-				"postcode" : "SK1 1PT",
-				"_long" : "-2.16158821923299",
-				"_lat" : "53.410939361349634"
+				"postcode" : "SK1 1PT"
 			}
 		},
 		{
@@ -1037,9 +879,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336154,
-				"postcode" : "SK1 1PU",
-				"_long" : "-2.1599334298328494",
-				"_lat" : "53.410941600691736"
+				"postcode" : "SK1 1PU"
 			}
 		},
 		{
@@ -1050,9 +890,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336155,
-				"postcode" : "SK1 1PW",
-				"_long" : "-2.1598744680497193",
-				"_lat" : "53.41126526246406"
+				"postcode" : "SK1 1PW"
 			}
 		},
 		{
@@ -1063,9 +901,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336156,
-				"postcode" : "SK1 1QD",
-				"_long" : "-2.160026657502411",
-				"_lat" : "53.41173245434244"
+				"postcode" : "SK1 1QD"
 			}
 		},
 		{
@@ -1076,9 +912,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336157,
-				"postcode" : "SK1 1QE",
-				"_long" : "-2.160024634925565",
-				"_lat" : "53.41119315307741"
+				"postcode" : "SK1 1QE"
 			}
 		},
 		{
@@ -1089,9 +923,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336158,
-				"postcode" : "SK1 1QF",
-				"_long" : "-2.1593017688787848",
-				"_lat" : "53.410987391436514"
+				"postcode" : "SK1 1QF"
 			}
 		},
 		{
@@ -1102,9 +934,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336159,
-				"postcode" : "SK1 1QN",
-				"_long" : "-2.161812270333783",
-				"_lat" : "53.410516601426764"
+				"postcode" : "SK1 1QN"
 			}
 		},
 		{
@@ -1115,9 +945,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336160,
-				"postcode" : "SK1 1QW",
-				"_long" : "-2.161480499402241",
-				"_lat" : "53.41030133119456"
+				"postcode" : "SK1 1QW"
 			}
 		},
 		{
@@ -1128,9 +956,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336161,
-				"postcode" : "SK1 1RA",
-				"_long" : "-2.1624883329771394",
-				"_lat" : "53.41028198010532"
+				"postcode" : "SK1 1RA"
 			}
 		},
 		{
@@ -1141,9 +967,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336162,
-				"postcode" : "SK1 1RB",
-				"_long" : "-2.1625945950867815",
-				"_lat" : "53.41053351005254"
+				"postcode" : "SK1 1RB"
 			}
 		},
 		{
@@ -1154,9 +978,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336163,
-				"postcode" : "SK1 1RE",
-				"_long" : "-2.161560446673326",
-				"_lat" : "53.40757773658387"
+				"postcode" : "SK1 1RE"
 			}
 		},
 		{
@@ -1167,9 +989,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336164,
-				"postcode" : "SK1 1RG",
-				"_long" : "-2.1624883329771394",
-				"_lat" : "53.41028198010532"
+				"postcode" : "SK1 1RG"
 			}
 		},
 		{
@@ -1180,9 +1000,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336165,
-				"postcode" : "SK1 1RJ",
-				"_long" : "-2.162221004638967",
-				"_lat" : "53.4111901742715"
+				"postcode" : "SK1 1RJ"
 			}
 		},
 		{
@@ -1193,9 +1011,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336166,
-				"postcode" : "SK1 1RS",
-				"_long" : "-2.161710475101064",
-				"_lat" : "53.411442545544624"
+				"postcode" : "SK1 1RS"
 			}
 		},
 		{
@@ -1206,9 +1022,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336167,
-				"postcode" : "SK1 1RW",
-				"_long" : "-2.161709078491526",
-				"_lat" : "53.41107402294195"
+				"postcode" : "SK1 1RW"
 			}
 		},
 		{
@@ -1219,9 +1033,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336168,
-				"postcode" : "SK1 1RX",
-				"_long" : "-2.1617561173539532",
-				"_lat" : "53.411577309444446"
+				"postcode" : "SK1 1RX"
 			}
 		},
 		{
@@ -1232,9 +1044,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336169,
-				"postcode" : "SK1 1RY",
-				"_long" : "-2.1611856087585406",
-				"_lat" : "53.411883690455674"
+				"postcode" : "SK1 1RY"
 			}
 		},
 		{
@@ -1245,9 +1055,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336170,
-				"postcode" : "SK1 1SE",
-				"_long" : "-2.1598639706033085",
-				"_lat" : "53.41247871045275"
+				"postcode" : "SK1 1SE"
 			}
 		},
 		{
@@ -1258,9 +1066,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336171,
-				"postcode" : "SK1 1SL",
-				"_long" : "-2.159502039007468",
-				"_lat" : "53.412245498540535"
+				"postcode" : "SK1 1SL"
 			}
 		},
 		{
@@ -1271,9 +1077,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336172,
-				"postcode" : "SK1 1SP",
-				"_long" : "-2.1613711852592994",
-				"_lat" : "53.409240848037534"
+				"postcode" : "SK1 1SP"
 			}
 		},
 		{
@@ -1284,9 +1088,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336173,
-				"postcode" : "SK1 1SZ",
-				"_long" : "-2.1603414968629435",
-				"_lat" : "53.411444401043816"
+				"postcode" : "SK1 1SZ"
 			}
 		},
 		{
@@ -1297,9 +1099,7 @@
 			},
 			"properties" : {
 				"ogc_fid" : 1336174,
-				"postcode" : "SK1 1TA",
-				"_long" : "-2.1591587427892667",
-				"_lat" : "53.412974019068365"
+				"postcode" : "SK1 1TA"
 			}
 		}
 	]
