@@ -193,7 +193,7 @@ test_geojson = L.geoJSON(taxi)
 	 var searchControl = new L.Control.Search({
     layer: test_geojson,                //layer name to search
     propertyName: 'id',         //Search field
-    marker: true,
+    marker: false,
     moveToLocation: function(latlng, title, map) {
         map.setView(latlng, 7);    // set the zoom
     }
