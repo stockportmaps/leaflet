@@ -124,21 +124,15 @@
 				info.update();
 			}
 			
-			function zoomToFeature(e) {
+			function zoomToFeature (e) {
 				mymap.fitBounds(e.target.getBounds());
-				feature.layer.bindPopup("<b>Site ID: </b>" + feature.properties.Site_reference + "<br> <b> Site Name: </b>" + feature.properties.Site_name + "<br><br><b>Description: </b>" + feature.properties.Site_description + "<br><br> <b> Assessment Summary: </b>" + feature.properties.Assessment_summary + "<br>" + feature.properties.Assessment_text);
-			}
-			
-			function popups(layer, feature, e) {
-			layer.bindPopup("<b>Site ID: </b>" + feature.properties.Site_reference + "<br> <b> Site Name: </b>" + feature.properties.Site_name + "<br><br><b>Description: </b>" + feature.properties.Site_description + "<br><br> <b> Assessment Summary: </b>" + feature.properties.Assessment_summary + "<br>" + feature.properties.Assessment_text)
-			};
-
-			function callBoth() {
-				popups(layer, feature, e);
-				zoomToFeature(e);
 			}
 
-			function onEachFeature(feature, layer) {
+			function popups(layer, feature) {
+				layer.bindPopup("<b>Site ID: </b>" + feature.properties.Site_reference + "<br> <b> Site Name: </b>" + feature.properties.Site_name + "<br><br><b>Description: </b>" + feature.properties.Site_description + "<br><br> <b> Assessment Summary: </b>" + feature.properties.Assessment_summary + "<br>" + feature.properties.Assessment_text);
+			}
+
+			function onEachFeature(layer, feature) {
 				layer.on({
 					mouseover: highlightFeature,
 					mouseout: resetHighlight,
