@@ -128,19 +128,20 @@
 				mymap.fitBounds(e.target.getBounds());
 			}
 			
-			function popups(feature, layer) {
-			layer.bindPopup("<b>Site ID: </b>" + feature.properties.Site_reference + "<br> <b> Site Name: </b>" + feature.properties.Site_name + "<br><br><b>Description: </b>" + feature.properties.Site_description + "<br><br> <b> Assessment Summary: </b>" + feature.properties.Assessment_summary + "<br>" + feature.properties.Assessment_text)
-			};
-			
 			function onEachFeature(feature, layer) {
 				layer.on({
 					mouseover: highlightFeature,
 					mouseout: resetHighlight,
-					click: popups
+					click: zoomToFeature
 				});
 			}	
+
+			function popups(feature, layer) {
+			layer.bindPopup("<b>Site ID: </b>" + feature.properties.Site_reference + "<br> <b> Site Name: </b>" + feature.properties.Site_name + "<br><br><b>Description: </b>" + feature.properties.Site_description + "<br><br> <b> Assessment Summary: </b>" + feature.properties.Assessment_summary + "<br>" + feature.properties.Assessment_text)
+			};
 			
-			shlaa18 = new L.GeoJSON.AJAX("../layers/shlaa18.json", {style: shlaa18style, onEachFeature: onEachFeature});
+			
+			shlaa18 = new L.GeoJSON.AJAX("../layers/shlaa18.json", {style: shlaa18style, onEachFeature: popups});
 			
 			var baseLayers = {
 				"Streets": streets,
