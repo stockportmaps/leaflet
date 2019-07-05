@@ -40,7 +40,7 @@ html, body {
 		id: 'mapbox.os_op'
 	});
 	
-	var postcode = L.GeoJSON.AJAX("pc.json");
+	var postcode = new L.GeoJSON.AJAX("pc.json");
 		
 	var map = L.map('map', {
     center: [53.41, -2.158],
