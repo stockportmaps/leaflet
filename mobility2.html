@@ -40,7 +40,7 @@ html, body {
 		id: 'mapbox.os_op'
 	});
 	
-	var postcode = new L.GeoJSON.AJAX("pc.json");
+	var postcode = L.GeoJSON.AJAX("pc.json");
 		
 	var map = L.map('map', {
     center: [53.41, -2.158],
@@ -75,13 +75,7 @@ html, body {
 						var lng = coord[1].split(')');
 						console.log("You clicked the map at latitude: " + lat[1] + " and longitude:" + lng[0]);
 					});
-					
-	
-   
-	
-	
-
-	
+						
 </script>
 
 </body>
