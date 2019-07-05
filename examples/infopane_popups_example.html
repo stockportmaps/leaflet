@@ -124,11 +124,11 @@
 				info.update();
 			}
 			
-			function zoomToFeature() {
+			function zoomToFeature(e) {
 				mymap.fitBounds(e.target.getBounds());
 			}
 			
-			function popups() {
+			function popups(e) {
 			layer.bindPopup("<b>Site ID: </b>" + feature.properties.Site_reference + "<br> <b> Site Name: </b>" + feature.properties.Site_name + "<br><br><b>Description: </b>" + feature.properties.Site_description + "<br><br> <b> Assessment Summary: </b>" + feature.properties.Assessment_summary + "<br>" + feature.properties.Assessment_text)
 			};
 
