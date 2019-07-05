@@ -60,15 +60,7 @@ html, body {
 	
 	var postcode = new L.GeoJSON.AJAX("pc.json");
 	
-	 var searchControl = new L.Control.Search({
-    layer: postcode,                //layer name to search
-    propertyName: 'postcode',         //Search field
-    marker: false,
-    moveToLocation: function(latlng, title, map) {
-        map.setView(latlng, 18);    // set the zoom
-	}});
-	
-	map.addControl( searchControl );
+
 	
 	map.on('click', 
 					function(e){
