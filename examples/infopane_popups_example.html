@@ -128,11 +128,16 @@
 				mymap.fitBounds(e.target.getBounds());
 			}
 
+			function popups(layer, feature) {
+				shlaa18.bindPopup("<b>Site ID: </b>" + feature.properties.Site_reference + "<br> <b> Site Name: </b>" + feature.properties.Site_name + "<br><br><b>Description: </b>" + feature.properties.Site_description + "<br><br> <b> Assessment Summary: </b>" + feature.properties.Assessment_summary + "<br>" + feature.properties.Assessment_text);
+			}
+
 			function onEachFeature(feature, layer) {
 				layer.on({
 					mouseover: highlightFeature,
 					mouseout: resetHighlight,
-					click: zoomToFeature
+					click: zoomToFeature,
+					click: popups
 				});
 			}	
 			
