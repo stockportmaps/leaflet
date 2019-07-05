@@ -1,0 +1,1306 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "pc",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2136952451, 53.4161061832 ]
+			},
+			"properties" : {
+				"ogc_fid" : 857750,
+				"postcode" : "M19 1RR",
+				"_long" : "-2.2136952451004746",
+				"_lat" : "53.41610618320029"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2141331837, 53.4134268824 ]
+			},
+			"properties" : {
+				"ogc_fid" : 857754,
+				"postcode" : "M19 1RW",
+				"_long" : "-2.214133183704613",
+				"_lat" : "53.41342688235263"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2132702606, 53.4183720518 ]
+			},
+			"properties" : {
+				"ogc_fid" : 857780,
+				"postcode" : "M19 1TF",
+				"_long" : "-2.2132702606175365",
+				"_lat" : "53.41837205178319"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2144714481, 53.4118802857 ]
+			},
+			"properties" : {
+				"ogc_fid" : 857782,
+				"postcode" : "M19 1TL",
+				"_long" : "-2.2144714480823704",
+				"_lat" : "53.4118802856533"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1819503783, 53.4340104547 ]
+			},
+			"properties" : {
+				"ogc_fid" : 857995,
+				"postcode" : "M19 2QD",
+				"_long" : "-2.1819503782847134",
+				"_lat" : "53.43401045472309"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1847475074, 53.4334308811 ]
+			},
+			"properties" : {
+				"ogc_fid" : 858030,
+				"postcode" : "M19 2SD",
+				"_long" : "-2.1847475074486424",
+				"_lat" : "53.433430881142115"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1881050043, 53.4336503362 ]
+			},
+			"properties" : {
+				"ogc_fid" : 858032,
+				"postcode" : "M19 2SQ",
+				"_long" : "-2.1881050042823857",
+				"_lat" : "53.43365033621049"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.175536211, 53.4335077362 ]
+			},
+			"properties" : {
+				"ogc_fid" : 858075,
+				"postcode" : "M19 2WE",
+				"_long" : "-2.1755362109904373",
+				"_lat" : "53.433507736195175"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1732191172, 53.4448007067 ]
+			},
+			"properties" : {
+				"ogc_fid" : 858214,
+				"postcode" : "M19 3JL",
+				"_long" : "-2.1732191171764486",
+				"_lat" : "53.44480070671181"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1722409044, 53.4449010002 ]
+			},
+			"properties" : {
+				"ogc_fid" : 858215,
+				"postcode" : "M19 3JN",
+				"_long" : "-2.1722409043885356",
+				"_lat" : "53.44490100020243"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1721072626, 53.4453596043 ]
+			},
+			"properties" : {
+				"ogc_fid" : 858221,
+				"postcode" : "M19 3JU",
+				"_long" : "-2.172107262564648",
+				"_lat" : "53.44535960433714"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1708020741, 53.4465209951 ]
+			},
+			"properties" : {
+				"ogc_fid" : 858289,
+				"postcode" : "M19 3TD",
+				"_long" : "-2.170802074129156",
+				"_lat" : "53.446520995122185"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1722169205, 53.4464110935 ]
+			},
+			"properties" : {
+				"ogc_fid" : 858293,
+				"postcode" : "M19 3WH",
+				"_long" : "-2.172216920524018",
+				"_lat" : "53.446411093493346"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1695713789, 53.4475024965 ]
+			},
+			"properties" : {
+				"ogc_fid" : 858304,
+				"postcode" : "M19 3YN",
+				"_long" : "-2.169571378881241",
+				"_lat" : "53.447502496494835"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1709557862, 53.4473027688 ]
+			},
+			"properties" : {
+				"ogc_fid" : 858306,
+				"postcode" : "M19 3ZF",
+				"_long" : "-2.170955786234234",
+				"_lat" : "53.44730276875002"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2453400933, 53.387884441 ]
+			},
+			"properties" : {
+				"ogc_fid" : 860946,
+				"postcode" : "M22 4QR",
+				"_long" : "-2.2453400933344674",
+				"_lat" : "53.38788444102118"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1615604467, 53.4075777366 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336091,
+				"postcode" : "SK1 1AA",
+				"_long" : "-2.161560446673326",
+				"_lat" : "53.40757773658387"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1615604467, 53.4075777366 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336092,
+				"postcode" : "SK1 1AB",
+				"_long" : "-2.161560446673326",
+				"_lat" : "53.40757773658387"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.160470772, 53.4098173258 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336093,
+				"postcode" : "SK1 1AL",
+				"_long" : "-2.1604707719990373",
+				"_lat" : "53.40981732578678"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1520729144, 53.4087677457 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336094,
+				"postcode" : "SK1 1AP",
+				"_long" : "-2.1520729143668675",
+				"_lat" : "53.40876774573575"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.156155165, 53.4103084516 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336095,
+				"postcode" : "SK1 1AQ",
+				"_long" : "-2.156155164959564",
+				"_lat" : "53.41030845158401"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.16087182, 53.4084595343 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336096,
+				"postcode" : "SK1 1DA",
+				"_long" : "-2.16087182001768",
+				"_lat" : "53.4084595343192"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1594300076, 53.40907269 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336097,
+				"postcode" : "SK1 1DH",
+				"_long" : "-2.159430007645071",
+				"_lat" : "53.40907268995399"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1609470673, 53.4084684208 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336098,
+				"postcode" : "SK1 1DL",
+				"_long" : "-2.1609470672617888",
+				"_lat" : "53.40846842077178"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1598639613, 53.4084608952 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336099,
+				"postcode" : "SK1 1DS",
+				"_long" : "-2.159863961322007",
+				"_lat" : "53.40846089521443"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1613841886, 53.408701526 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336100,
+				"postcode" : "SK1 1DU",
+				"_long" : "-2.1613841886456395",
+				"_lat" : "53.40870152603919"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1579870222, 53.4093802239 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336101,
+				"postcode" : "SK1 1DY",
+				"_long" : "-2.157987022207517",
+				"_lat" : "53.40938022390895"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1581394174, 53.4099103367 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336102,
+				"postcode" : "SK1 1EB",
+				"_long" : "-2.1581394174494553",
+				"_lat" : "53.40991033667856"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1615604467, 53.4075777366 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336103,
+				"postcode" : "SK1 1ED",
+				"_long" : "-2.161560446673326",
+				"_lat" : "53.40757773658387"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.157567146, 53.4097403177 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336104,
+				"postcode" : "SK1 1EF",
+				"_long" : "-2.157567146006118",
+				"_lat" : "53.40974031768627"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1562581641, 53.4096791284 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336105,
+				"postcode" : "SK1 1EG",
+				"_long" : "-2.156258164114426",
+				"_lat" : "53.40967912835012"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1567279336, 53.4106133026 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336106,
+				"postcode" : "SK1 1EH",
+				"_long" : "-2.1567279336324265",
+				"_lat" : "53.41061330263189"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1574465026, 53.4096595821 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336107,
+				"postcode" : "SK1 1EJ",
+				"_long" : "-2.1574465025625535",
+				"_lat" : "53.40965958209288"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1559264605, 53.4094728312 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336108,
+				"postcode" : "SK1 1EL",
+				"_long" : "-2.155926460490513",
+				"_lat" : "53.40947283119815"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1563716348, 53.4119081011 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336109,
+				"postcode" : "SK1 1EN",
+				"_long" : "-2.1563716347510136",
+				"_lat" : "53.41190810111793"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1565817873, 53.4117819868 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336110,
+				"postcode" : "SK1 1ES",
+				"_long" : "-2.156581787323917",
+				"_lat" : "53.411781986779864"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1574689094, 53.4116549766 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336111,
+				"postcode" : "SK1 1EU",
+				"_long" : "-2.1574689094010613",
+				"_lat" : "53.41165497661048"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1564291081, 53.4111709771 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336112,
+				"postcode" : "SK1 1EW",
+				"_long" : "-2.156429108107321",
+				"_lat" : "53.41117097709239"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1564616673, 53.4118450638 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336113,
+				"postcode" : "SK1 1EZ",
+				"_long" : "-2.156461667330973",
+				"_lat" : "53.411845063811576"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1550986693, 53.4093570661 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336114,
+				"postcode" : "SK1 1FE",
+				"_long" : "-2.155098669271907",
+				"_lat" : "53.40935706606882"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1579606295, 53.4103779713 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336115,
+				"postcode" : "SK1 1HD",
+				"_long" : "-2.157960629517037",
+				"_lat" : "53.410377971335315"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1607973859, 53.4086663683 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336116,
+				"postcode" : "SK1 1HE",
+				"_long" : "-2.160797385856021",
+				"_lat" : "53.408666368338686"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1577942885, 53.4101444941 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336117,
+				"postcode" : "SK1 1HF",
+				"_long" : "-2.1577942885215586",
+				"_lat" : "53.41014449407427"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1591777991, 53.4100168104 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336118,
+				"postcode" : "SK1 1HG",
+				"_long" : "-2.159177799125586",
+				"_lat" : "53.4100168104111"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1583517231, 53.4103684622 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336119,
+				"postcode" : "SK1 1HH",
+				"_long" : "-2.1583517230982077",
+				"_lat" : "53.410368462185"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1588162936, 53.4098914567 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336120,
+				"postcode" : "SK1 1HL",
+				"_long" : "-2.158816293589299",
+				"_lat" : "53.40989145672602"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.156155165, 53.4103084516 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336121,
+				"postcode" : "SK1 1JE",
+				"_long" : "-2.156155164959564",
+				"_lat" : "53.41030845158401"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1561551979, 53.4103174399 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336122,
+				"postcode" : "SK1 1JF",
+				"_long" : "-2.1561551978536087",
+				"_lat" : "53.41031743993681"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.155101577, 53.4101570295 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336123,
+				"postcode" : "SK1 1JJ",
+				"_long" : "-2.155101577031447",
+				"_lat" : "53.41015702946216"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1565038317, 53.4110360527 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336124,
+				"postcode" : "SK1 1JP",
+				"_long" : "-2.1565038317028065",
+				"_lat" : "53.41103605273225"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1557940596, 53.410290949 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336125,
+				"postcode" : "SK1 1JQ",
+				"_long" : "-2.155794059619598",
+				"_lat" : "53.4102909490208"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1573456754, 53.4108731494 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336126,
+				"postcode" : "SK1 1JT",
+				"_long" : "-2.157345675355084",
+				"_lat" : "53.410873149422486"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1560967673, 53.4107939017 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336127,
+				"postcode" : "SK1 1JY",
+				"_long" : "-2.1560967672962836",
+				"_lat" : "53.41079390171325"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1570898032, 53.4108375345 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336128,
+				"postcode" : "SK1 1JZ",
+				"_long" : "-2.1570898031685344",
+				"_lat" : "53.41083753450573"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1572110785, 53.4110890492 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336129,
+				"postcode" : "SK1 1LA",
+				"_long" : "-2.157211078490498",
+				"_lat" : "53.41108904915899"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1578146839, 53.411591599 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336130,
+				"postcode" : "SK1 1LF",
+				"_long" : "-2.1578146839437493",
+				"_lat" : "53.41159159898694"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1578452703, 53.4117263843 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336131,
+				"postcode" : "SK1 1LH",
+				"_long" : "-2.1578452702532456",
+				"_lat" : "53.411726384296365"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.158311662, 53.4117347521 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336132,
+				"postcode" : "SK1 1LL",
+				"_long" : "-2.158311661977017",
+				"_lat" : "53.41173475208371"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1579489133, 53.4112768267 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336133,
+				"postcode" : "SK1 1LN",
+				"_long" : "-2.157948913336337",
+				"_lat" : "53.411276826699144"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1584912864, 53.4114918258 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336134,
+				"postcode" : "SK1 1LW",
+				"_long" : "-2.158491286380712",
+				"_lat" : "53.41149182584848"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1602904231, 53.4098625113 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336135,
+				"postcode" : "SK1 1LZ",
+				"_long" : "-2.16029042307692",
+				"_lat" : "53.409862511314856"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1587009626, 53.4112398708 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336136,
+				"postcode" : "SK1 1NA",
+				"_long" : "-2.1587009626135734",
+				"_lat" : "53.411239870777145"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1586854844, 53.4111230423 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336137,
+				"postcode" : "SK1 1NB",
+				"_long" : "-2.1586854844104852",
+				"_lat" : "53.4111230422758"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1585489564, 53.410817619 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336138,
+				"postcode" : "SK1 1NE",
+				"_long" : "-2.1585489564088163",
+				"_lat" : "53.410817619029466"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1587442878, 53.4107544394 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336139,
+				"postcode" : "SK1 1NF",
+				"_long" : "-2.1587442878108267",
+				"_lat" : "53.410754439358804"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1615687514, 53.4097708953 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336140,
+				"postcode" : "SK1 1NP",
+				"_long" : "-2.1615687513593547",
+				"_lat" : "53.409770895348174"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1607588605, 53.4104191592 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336141,
+				"postcode" : "SK1 1NT",
+				"_long" : "-2.1607588604997665",
+				"_lat" : "53.410419159226244"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1616862697, 53.4090246978 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336142,
+				"postcode" : "SK1 1NU",
+				"_long" : "-2.161686269671648",
+				"_lat" : "53.409024697801954"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1590260271, 53.4096574777 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336143,
+				"postcode" : "SK1 1NX",
+				"_long" : "-2.1590260270644994",
+				"_lat" : "53.40965747767601"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.159010984, 53.4096574978 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336144,
+				"postcode" : "SK1 1NZ",
+				"_long" : "-2.159010983974932",
+				"_lat" : "53.409657497816625"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1595863527, 53.4106544387 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336145,
+				"postcode" : "SK1 1PD",
+				"_long" : "-2.159586352656764",
+				"_lat" : "53.410654438657794"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1598549122, 53.4100608431 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336146,
+				"postcode" : "SK1 1PE",
+				"_long" : "-2.1598549121850876",
+				"_lat" : "53.41006084307468"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1599171399, 53.4106090518 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336147,
+				"postcode" : "SK1 1PG",
+				"_long" : "-2.159917139906569",
+				"_lat" : "53.410609051795916"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1591408154, 53.412201041 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336148,
+				"postcode" : "SK1 1PJ",
+				"_long" : "-2.159140815370763",
+				"_lat" : "53.41220104095012"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1610772478, 53.4110748813 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336149,
+				"postcode" : "SK1 1PL",
+				"_long" : "-2.1610772478497555",
+				"_lat" : "53.411074881298525"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1588687519, 53.411859846 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336150,
+				"postcode" : "SK1 1PN",
+				"_long" : "-2.158868751889595",
+				"_lat" : "53.41185984596628"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1593637559, 53.4114726819 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336151,
+				"postcode" : "SK1 1PP",
+				"_long" : "-2.159363755883757",
+				"_lat" : "53.4114726818531"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1597230221, 53.4109958142 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336152,
+				"postcode" : "SK1 1PR",
+				"_long" : "-2.1597230221291643",
+				"_lat" : "53.41099581418328"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1615882192, 53.4109393613 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336153,
+				"postcode" : "SK1 1PT",
+				"_long" : "-2.16158821923299",
+				"_lat" : "53.410939361349634"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1599334298, 53.4109416007 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336154,
+				"postcode" : "SK1 1PU",
+				"_long" : "-2.1599334298328494",
+				"_lat" : "53.410941600691736"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.159874468, 53.4112652625 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336155,
+				"postcode" : "SK1 1PW",
+				"_long" : "-2.1598744680497193",
+				"_lat" : "53.41126526246406"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1600266575, 53.4117324543 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336156,
+				"postcode" : "SK1 1QD",
+				"_long" : "-2.160026657502411",
+				"_lat" : "53.41173245434244"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1600246349, 53.4111931531 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336157,
+				"postcode" : "SK1 1QE",
+				"_long" : "-2.160024634925565",
+				"_lat" : "53.41119315307741"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1593017689, 53.4109873914 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336158,
+				"postcode" : "SK1 1QF",
+				"_long" : "-2.1593017688787848",
+				"_lat" : "53.410987391436514"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1618122703, 53.4105166014 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336159,
+				"postcode" : "SK1 1QN",
+				"_long" : "-2.161812270333783",
+				"_lat" : "53.410516601426764"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1614804994, 53.4103013312 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336160,
+				"postcode" : "SK1 1QW",
+				"_long" : "-2.161480499402241",
+				"_lat" : "53.41030133119456"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.162488333, 53.4102819801 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336161,
+				"postcode" : "SK1 1RA",
+				"_long" : "-2.1624883329771394",
+				"_lat" : "53.41028198010532"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1625945951, 53.4105335101 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336162,
+				"postcode" : "SK1 1RB",
+				"_long" : "-2.1625945950867815",
+				"_lat" : "53.41053351005254"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1615604467, 53.4075777366 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336163,
+				"postcode" : "SK1 1RE",
+				"_long" : "-2.161560446673326",
+				"_lat" : "53.40757773658387"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.162488333, 53.4102819801 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336164,
+				"postcode" : "SK1 1RG",
+				"_long" : "-2.1624883329771394",
+				"_lat" : "53.41028198010532"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1622210046, 53.4111901743 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336165,
+				"postcode" : "SK1 1RJ",
+				"_long" : "-2.162221004638967",
+				"_lat" : "53.4111901742715"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1617104751, 53.4114425455 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336166,
+				"postcode" : "SK1 1RS",
+				"_long" : "-2.161710475101064",
+				"_lat" : "53.411442545544624"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1617090785, 53.4110740229 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336167,
+				"postcode" : "SK1 1RW",
+				"_long" : "-2.161709078491526",
+				"_lat" : "53.41107402294195"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1617561174, 53.4115773094 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336168,
+				"postcode" : "SK1 1RX",
+				"_long" : "-2.1617561173539532",
+				"_lat" : "53.411577309444446"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1611856088, 53.4118836905 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336169,
+				"postcode" : "SK1 1RY",
+				"_long" : "-2.1611856087585406",
+				"_lat" : "53.411883690455674"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1598639706, 53.4124787105 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336170,
+				"postcode" : "SK1 1SE",
+				"_long" : "-2.1598639706033085",
+				"_lat" : "53.41247871045275"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.159502039, 53.4122454985 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336171,
+				"postcode" : "SK1 1SL",
+				"_long" : "-2.159502039007468",
+				"_lat" : "53.412245498540535"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1613711853, 53.409240848 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336172,
+				"postcode" : "SK1 1SP",
+				"_long" : "-2.1613711852592994",
+				"_lat" : "53.409240848037534"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1603414969, 53.411444401 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336173,
+				"postcode" : "SK1 1SZ",
+				"_long" : "-2.1603414968629435",
+				"_lat" : "53.411444401043816"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1591587428, 53.4129740191 ]
+			},
+			"properties" : {
+				"ogc_fid" : 1336174,
+				"postcode" : "SK1 1TA",
+				"_long" : "-2.1591587427892667",
+				"_lat" : "53.412974019068365"
+			}
+		}
+	]
+}
