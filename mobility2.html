@@ -63,17 +63,19 @@ html, body {
 	
 	L.control.layers(baseLayers, overlays).addTo(map);
 	
-	map.removeLayer(postcode);
 	
-//	 var searchControl = new L.Control.Search({
- //   layer: postcode,                //layer name to search
- //   propertyName: 'postcode',         //Search field
+	
+	var searchControl = new L.Control.Search({
+		layer: postcode,                //layer name to search
+		propertyName: 'postcode',         //Search field
     
- //   moveToLocation: function(latlng, title, map) {
- //       map.setView(latlng, 18);    // set the zoom
-//	}});
+		moveToLocation: function(latlng, title, map) {
+		map.setView(latlng, 18);    // set the zoom
+	}});
 	
-//	map.addControl( searchControl );
+	map.addControl( searchControl );
+	
+	map.removeLayer(postcode);
 	
 	map.on('click', 
 					function(e){
