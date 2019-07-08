@@ -40,12 +40,17 @@ html, body {
 		id: 'mapbox.os_op'
 	});
 	
-
+	var pcstyle ={
+				fillOpacity: 0 			
+				
+				};		
+	
+	var postcode = new L.GeoJSON.AJAX("pc.json", {style: pcstyle});
 		
 	var map = L.map('map', {
     center: [53.41, -2.158],
     zoom: 16,
-    layers: [openstreetmap]
+    layers: [openstreetmap,postcode]
 	
 	});
 	
@@ -58,20 +63,9 @@ html, body {
 	
 	L.control.layers(baseLayers, overlays).addTo(map);
 	
-	var pcstyle ={
-				fillOpacity: 0 			
-				
-				};		
 	
-	var postcode = new L.GeoJSON.AJAX("pc.json", {style: pcstyle});
 	
-	 var searchControl = new L.Control.Search({
-    layer: postcode,                //layer name to search
-    propertyName: 'postcode',         //Search field
-    
-    moveToLocation: function(latlng, title, map) {
-        map.setView(latlng, 18);    // set the zoom
-	}});
+	
 	
 	map.addControl( searchControl );
 	
