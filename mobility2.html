@@ -59,8 +59,8 @@ html, body {
 	L.control.layers(baseLayers, overlays).addTo(map);
 	
 	var pcstyle ={
-							
-				"color": 'rgba(0,0,0,0)'
+				fillOpacity: 0 			
+				
 				};		
 	
 	var postcode = new L.GeoJSON.AJAX("pc.json", {style: pcstyle});
