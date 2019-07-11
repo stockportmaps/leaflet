@@ -55,6 +55,76 @@
 			};
 			
 			L.control.layers(baseLayers).addTo(mymap)
+
+            mymap.mapid.editablelayers = new L.FeatureGroup();
+            mymap.mapid.addLayer(add.map.editableLayers);
+
+            mymap.styleUserFeatures = {
+                color: '#fc6721',
+                fillColor: '#fc6721',
+                weight: 4,
+                opacity: 0.5,
+                fillOpacity: 0.2,
+                dashArray: null
+            }
+
+            mymap.defFeatureId = 1;
+            mymap.featureCache = null;
+
+            mymap.drawControl = new L.Control.Draw({
+                edit: {
+                    featureGroup: app.map.editableLayers
+                },
+                draw: {
+                    polyline: {
+                        shapeOptions: {
+                            color: '#fc6721'
+                        }
+                    },
+                    polygon: {
+                        allowIntersection: false,
+                        drawError: {
+                            color: '#ff0000',
+                            timeout: 1000
+                        },
+                        shapeOptions: {
+                            color: '#fc6721'
+                        },
+                        showArea: true
+                    },
+                    circle: {
+                        shapeOptions: {
+                            color: '#fc6721'
+                        }
+                    },
+                    marker: {
+                        icon: labMarkerSVG({
+                            color: '#fc6721',
+                            size: 'medium'
+                        })
+                    },
+                    rectangle: false,
+                    circlemarker: false
+                },
+                position: 'bottomleft'
+            });
+            mymap.mapid.addControl(mymap.drawControl);
+
+            mymap.mapid.on('draw:created', function (e) {
+                var type = e.layerType,
+                    layer = e.layer
+
+                layer.properties = {};
+                layer.properties.featureNum = mymap.defFeatureId++;
+
+            mymap.mapid.editableLayers.addLayer(layer);
+            layer.bindTooltip('Feature #' + layer.properties.featureNum);
+
+            layer.type = type;
+                if (layer.type == 'circle') layer.properties.featureRadius = layer.getRadius();
+
+            layer.on('click', showLayerProps);
+        });
 			
 		</script>
 	
