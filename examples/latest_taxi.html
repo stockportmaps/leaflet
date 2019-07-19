@@ -38,22 +38,22 @@
 			
 			var boundary = new L.GeoJSON.AJAX("../layers/boundary.geojson", {style: boroughboundarystyle}); 
 			
-			var nationalcharacterareasstyle = {
+			var taxisstyle = {
 				"color": "#FF0000",
 				"weight": 2,
 				"opacity": 1,
 				"fillColor": "#FF0000",
-				"fillOpacity":30,
+				"fillOpacity":0.2,
 				"dashArray": '15,7,7',
 				"dashOffset": '0'
 			};
 			
-			var nationalcharacterareas = new L.GeoJSON.AJAX("../layers/taxi_rank.geojson", {style: nationalcharacterareasstyle});
+			var taxi = new L.GeoJSON.AJAX("../layers/taxi_rank.geojson", {style: taxistyle});
 			
 			var mymap = L.map('mapid', {
 			center: [53.390784,-2.119261],
 			zoom: 12,
-			layers:[streets, boundary]
+			layers:[streets, boundary, taxi]
 			});	
 			
 			var baseLayers = {
@@ -62,7 +62,7 @@
 			};
 			
 			var overlays = {
-				"National Character Areas": nationalcharacterareas
+				"Taxi Ranks": taxi
 			};
 			
 			L.control.layers(baseLayers, overlays).addTo(mymap);
