@@ -125,6 +125,17 @@
 
             layer.on('click', showLayerProps);
         });
+
+        mymap.mapid.on('draw:deleted', function (e) {
+                if (mymap.mapid.editableLayers.getLayers().length == 0) mymap.defFeatureId = 1;
+
+                resetFeatureStyle();
+
+                mymap.updateInfo();
+                if (L.DomUtil.hasClass(mymap.infoDockContainer, 'hideContent') == false) L.DomUtil.addClass(mymap.infoDockContainer, 'hideContent');
+            });
+
+
 			
 		</script>
 	

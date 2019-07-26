@@ -1,0 +1,1514 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "GPs",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2146905924, 53.3477801331 ]
+			},
+			"properties" : {
+				"org_id" : "17563",
+				"org_type" : "N81070",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Handforth Health Centre",
+				"address1" : "Wilmslow Road",
+				"address2" : "Handforth",
+				"address3" : "",
+				"city" : "Wilmslow",
+				"county" : "Cheshire",
+				"postcode" : "SK9 3HL",
+				"district" : "Cheshire East",
+				"parentodsc" : "01C",
+				"parentname" : "NHS Eastern Cheshire CCG",
+				"website" : "http://www.handforthhealthcentre.nhs.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 1169.56
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2554381125, 53.38749858 ]
+			},
+			"properties" : {
+				"org_id" : "24561",
+				"org_type" : "P84014",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "RK Medical Practice",
+				"address1" : "Brownley Green Health Centre",
+				"address2" : "171 Brownley Road",
+				"address3" : "",
+				"city" : "Wythenshawe",
+				"county" : "Lancashire",
+				"postcode" : "M22 9UH",
+				"district" : "Manchester District",
+				"parentodsc" : "14L",
+				"parentname" : "NHS Manchester CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 1268.94
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1884376473, 53.4463060083 ]
+			},
+			"properties" : {
+				"org_id" : "24562",
+				"org_type" : "P84016",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Levenshulme Medical Practice",
+				"address1" : "Dunstable Street",
+				"address2" : "Levenshulme",
+				"address3" : "",
+				"city" : "Manchester",
+				"county" : "Greater Manchester",
+				"postcode" : "M19 3BX",
+				"district" : "Manchester District",
+				"parentodsc" : "14L",
+				"parentname" : "NHS Manchester CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 882.8
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2125846124, 53.4202418161 ]
+			},
+			"properties" : {
+				"org_id" : "24569",
+				"org_type" : "P84022",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Kingsway Medical Practice",
+				"address1" : "720 Burnage Lane",
+				"address2" : "Burnage",
+				"address3" : "",
+				"city" : "Manchester",
+				"county" : "Lancashire",
+				"postcode" : "M19 1UG",
+				"district" : "Manchester District",
+				"parentodsc" : "14L",
+				"parentname" : "NHS Manchester CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 246.85
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2555853357, 53.3874950039 ]
+			},
+			"properties" : {
+				"org_id" : "24576",
+				"org_type" : "P84029",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Benchill Medical Practice",
+				"address1" : "171 Brownley Road",
+				"address2" : "Wythenshawe",
+				"address3" : "",
+				"city" : "Manchester",
+				"county" : "Lancashire",
+				"postcode" : "M22 9UH",
+				"district" : "Manchester District",
+				"parentodsc" : "14L",
+				"parentname" : "NHS Manchester CCG",
+				"website" : "http://www.benchillmedicalpractice.co.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 1268.94
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2004011046, 53.4301910795 ]
+			},
+			"properties" : {
+				"org_id" : "24650",
+				"org_type" : "P84682",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Dr Peter Chadwick",
+				"address1" : "347 Burnage Lane",
+				"address2" : "Burnage",
+				"address3" : "",
+				"city" : "Manchester",
+				"county" : "Greater Manchester",
+				"postcode" : "M19 1EW",
+				"district" : "Manchester District",
+				"parentodsc" : "14L",
+				"parentname" : "NHS Manchester CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 843.73
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2154759424, 53.3518112072 ]
+			},
+			"properties" : {
+				"org_id" : "24819",
+				"org_type" : "P88025001",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Dr Shipston & Partners",
+				"address1" : "166 Wilmslow Road",
+				"address2" : "Handforth",
+				"address3" : "",
+				"city" : "Wilmslow",
+				"county" : "Cheshire",
+				"postcode" : "SK9 3LF",
+				"district" : "Cheshire East",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.hulmehallmedicalgroup.nhs.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 137.13
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1008140681, 53.4435019738 ]
+			},
+			"properties" : {
+				"org_id" : "24862",
+				"org_type" : "P89014002",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Dr. A M Cumming",
+				"address1" : "Haughton Thornley Med Centre",
+				"address2" : "Tatton Road Haughton Green",
+				"address3" : "Denton",
+				"city" : "Manchester",
+				"county" : "Greater Manchester",
+				"postcode" : "M34 7PL",
+				"district" : "Tameside District",
+				"parentodsc" : "01Y",
+				"parentname" : "NHS Tameside And Glossop CCG",
+				"website" : "http://www.htmc.co.uk/pages/pv.asp?p=htmc26",
+				"in1kmbuff" : "yes",
+				"calcarea" : 266.23
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2383738395, 53.3912913438 ]
+			},
+			"properties" : {
+				"org_id" : "24559",
+				"org_type" : "P84012001",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "The Gatley Surgery",
+				"address1" : "94 - 96 Church Road Gatley",
+				"address2" : "",
+				"address3" : "",
+				"city" : "Gatley",
+				"county" : "Cheshire",
+				"postcode" : "SK8 4NQ",
+				"district" : "Stockport District",
+				"parentodsc" : "14L",
+				"parentname" : "NHS Manchester CCG",
+				"website" : "www.northendengp.com",
+				"in1kmbuff" : "yes",
+				"calcarea" : 134.28
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.0532614364, 53.4002241906 ]
+			},
+			"properties" : {
+				"org_id" : "24793",
+				"org_type" : "P88002",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Marple Bridge Surgery",
+				"address1" : "Town Street",
+				"address2" : "Marple Bridge",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK6 5AA",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.MarpleBridgeSurgery.nhs.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 272.36
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1534685996, 53.4036182115 ]
+			},
+			"properties" : {
+				"org_id" : "24794",
+				"org_type" : "P88003001",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Dr Parkinson & Partners",
+				"address1" : "56 Higher Hillgate",
+				"address2" : "",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Cheshire",
+				"postcode" : "SK1 3PZ",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "manormedical.co.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 145.42
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.136822123, 53.4037001876 ]
+			},
+			"properties" : {
+				"org_id" : "24795",
+				"org_type" : "P88003",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Manor Medical Practice",
+				"address1" : "Offerton Health Centre",
+				"address2" : "10 Offerton Lane",
+				"address3" : "Offerton",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK2 5AR",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "manormedical.co.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 618.6
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1569938675, 53.4460679864 ]
+			},
+			"properties" : {
+				"org_id" : "24797",
+				"org_type" : "P88005",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Family Surgery",
+				"address1" : "306 Gorton Road",
+				"address2" : "",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK5 6RN",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.thereddishfamilypractice.nhs.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 212.36
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.0613609698, 53.3923933828 ]
+			},
+			"properties" : {
+				"org_id" : "24798",
+				"org_type" : "P88006",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Marple Cottage Surgery",
+				"address1" : "50 Church Street",
+				"address2" : "Marple",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK6 6BW",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.marplecottage.co.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 247.42
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1890533846, 53.3792996383 ]
+			},
+			"properties" : {
+				"org_id" : "24799",
+				"org_type" : "P88007001",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Dr Seabrook & Partners",
+				"address1" : "11 Ladybridge Road",
+				"address2" : "Cheadle Hulme",
+				"address3" : "Cheadle",
+				"city" : "Stockport",
+				"county" : "Cheshire",
+				"postcode" : "SK8 5LL",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 167.85
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1913258487, 53.3664860433 ]
+			},
+			"properties" : {
+				"org_id" : "24800",
+				"org_type" : "P88007",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Cheadle Hulme Health Ctr",
+				"address1" : "Smithy Green",
+				"address2" : "Hulme Hall Road",
+				"address3" : "Cheadle Hulme",
+				"city" : "Cheadle",
+				"county" : "Cheshire",
+				"postcode" : "SK8 6LU",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 483.31
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2050871119, 53.4125289585 ]
+			},
+			"properties" : {
+				"org_id" : "24801",
+				"org_type" : "P88008",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Heaton Mersey Medical Practice",
+				"address1" : "460 Didsbury Road",
+				"address2" : "Heaton Mersey",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK4 3BT",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.heatonmerseymedicalpractice.co.uk/",
+				"in1kmbuff" : "yes",
+				"calcarea" : 246.41
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.0994535203, 53.4261703451 ]
+			},
+			"properties" : {
+				"org_id" : "24802",
+				"org_type" : "P88009",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Woodley Village Surgery",
+				"address1" : "Woodley Health Centre, Hyde Road",
+				"address2" : "Woodley",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Cheshire",
+				"postcode" : "SK6 1ND",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 1059.28
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1678985076, 53.4165421408 ]
+			},
+			"properties" : {
+				"org_id" : "24803",
+				"org_type" : "P88010",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Heaton Norris Health Centre",
+				"address1" : "Cheviot Close",
+				"address2" : "",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK4 1JX",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 891.23
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1678985076, 53.4165421408 ]
+			},
+			"properties" : {
+				"org_id" : "24804",
+				"org_type" : "P88011",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Heaton Norris Health Centre",
+				"address1" : "Cheviot Close",
+				"address2" : "Heaton Norris",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK4 1JX",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.drmarshallandpartners.co.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 891.23
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1181157146, 53.3794176716 ]
+			},
+			"properties" : {
+				"org_id" : "24805",
+				"org_type" : "P88012",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Beech House Medical Practice",
+				"address1" : "Beech House",
+				"address2" : "Beech Avenue",
+				"address3" : "Hazel Grove",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK7 4QR",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.beechhousesurgery.co.uk/",
+				"in1kmbuff" : "yes",
+				"calcarea" : 188
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1345678714, 53.3959391819 ]
+			},
+			"properties" : {
+				"org_id" : "24806",
+				"org_type" : "P88013",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Caritas General Practice Partnership",
+				"address1" : "Dial House Medical Centre",
+				"address2" : "131 Mile End Lane",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK2 6BZ",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.dialhousemedicalcentre.nhs.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 287.95
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1945761879, 53.4003870578 ]
+			},
+			"properties" : {
+				"org_id" : "24807",
+				"org_type" : "P88013001",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Ellesmere Medical Centre",
+				"address1" : "262 Stockport Road",
+				"address2" : "Cheadle Heath",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Cheshire",
+				"postcode" : "SK3 0RQ",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "www.ellesmeremedicalcentre.nhs.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 138.57
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1929285118, 53.3901680794 ]
+			},
+			"properties" : {
+				"org_id" : "24808",
+				"org_type" : "P88014",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Adshall Road Medical Practice",
+				"address1" : "97 Adshall Road",
+				"address2" : "",
+				"address3" : "",
+				"city" : "Cheadle",
+				"county" : "Cheshire",
+				"postcode" : "SK8 2JN",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 247.77
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1630680299, 53.3600918042 ]
+			},
+			"properties" : {
+				"org_id" : "24809",
+				"org_type" : "P88015",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Bramhall Health Centre",
+				"address1" : "66 Bramhall Lane South",
+				"address2" : "Bramhall",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK7 2DY",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.bramhallhealthcentre.co.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 977.45
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1614297605, 53.4004125598 ]
+			},
+			"properties" : {
+				"org_id" : "24810",
+				"org_type" : "P88016001",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Dr Devine & Partners",
+				"address1" : "Gilmore Street",
+				"address2" : "",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Cheshire",
+				"postcode" : "SK3 8DN",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.shawheathhealthcentre.co.uk/index.aspx",
+				"in1kmbuff" : "yes",
+				"calcarea" : 728.96
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1618388111, 53.3774196061 ]
+			},
+			"properties" : {
+				"org_id" : "24811",
+				"org_type" : "P88016",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Bramhall Park Medical Centre",
+				"address1" : "235 Bramhall Lane South",
+				"address2" : "Bramhall",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK7 3EP",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.bramhallparkmedicalcentre.co.uk/",
+				"in1kmbuff" : "yes",
+				"calcarea" : 189.56
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.0898989924, 53.4150085258 ]
+			},
+			"properties" : {
+				"org_id" : "24812",
+				"org_type" : "P88017",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Chadsfield Medical Practice",
+				"address1" : "Chichester Road",
+				"address2" : "Romiley",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK6 4QR",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 772.23
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1584359477, 53.4457552468 ]
+			},
+			"properties" : {
+				"org_id" : "24813",
+				"org_type" : "P88018",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Park View Group Practice",
+				"address1" : "2 Longford Road West",
+				"address2" : "Reddish",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Cheshire",
+				"postcode" : "SK5 6ET",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.parkviewgrouppractice.co.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 410.42
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.0996294758, 53.4263000445 ]
+			},
+			"properties" : {
+				"org_id" : "24814",
+				"org_type" : "P88019",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Alvanley Family Practice",
+				"address1" : "Woodley Health Centre",
+				"address2" : "Hyde Road",
+				"address3" : "Woodley",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK6 1ND",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.alvanleyfamilypractice.co.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 1059.28
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2135350353, 53.393787206 ]
+			},
+			"properties" : {
+				"org_id" : "24815",
+				"org_type" : "P88020",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Cheadle Medical Practice",
+				"address1" : "1-5 Ashfield Crescent",
+				"address2" : "",
+				"address3" : "",
+				"city" : "Cheadle",
+				"county" : "Cheshire",
+				"postcode" : "SK8 1BH",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 182.12
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.065643209, 53.3951394935 ]
+			},
+			"properties" : {
+				"org_id" : "24816",
+				"org_type" : "P88021",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Marple Medical Practice",
+				"address1" : "50 Stockport Road",
+				"address2" : "Marple",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK6 6AB",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.marplemedicalpractice.nhs.uk/home-page,24158.htm",
+				"in1kmbuff" : "yes",
+				"calcarea" : 219.1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2292447562, 53.36988855 ]
+			},
+			"properties" : {
+				"org_id" : "24817",
+				"org_type" : "P88023",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Heald Green Health Centre 2 (Morris)",
+				"address1" : "Finney Lane",
+				"address2" : "Heald Green",
+				"address3" : "",
+				"city" : "Cheadle",
+				"county" : "Cheshire",
+				"postcode" : "SK8 3JD",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 706.63
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.235314365, 53.3938064927 ]
+			},
+			"properties" : {
+				"org_id" : "24818",
+				"org_type" : "P88024",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Gatley Group Practice",
+				"address1" : "Old Hall Road",
+				"address2" : "Gatley",
+				"address3" : "",
+				"city" : "Cheadle",
+				"county" : "Cheshire",
+				"postcode" : "SK8 4DG",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 482.37
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1913258487, 53.3664860433 ]
+			},
+			"properties" : {
+				"org_id" : "24820",
+				"org_type" : "P88025",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Hulme Hall Medical Group",
+				"address1" : "Smithy Green",
+				"address2" : "Hulme Hall Road",
+				"address3" : "Cheadle Hulme",
+				"city" : "Cheadle",
+				"county" : "Cheshire",
+				"postcode" : "SK8 6LU",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.hulmehallmedicalgroup.nhs.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 483.31
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.180073948, 53.4249243477 ]
+			},
+			"properties" : {
+				"org_id" : "24821",
+				"org_type" : "P88026",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Heaton Moor Medical Group",
+				"address1" : "32 Heaton Moor Road",
+				"address2" : "Heaton Moor",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK4 4NX",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.hmmc.info",
+				"in1kmbuff" : "yes",
+				"calcarea" : 552.84
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1225574264, 53.3680558776 ]
+			},
+			"properties" : {
+				"org_id" : "24822",
+				"org_type" : "P88026002",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Dean Lane Medical Centre",
+				"address1" : "95 Dean Lane",
+				"address2" : "Hazel Grove",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Cheshire",
+				"postcode" : "SK7 6EJ",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.hmmc.info",
+				"in1kmbuff" : "yes",
+				"calcarea" : 107.09
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1800464969, 53.4249452026 ]
+			},
+			"properties" : {
+				"org_id" : "24824",
+				"org_type" : "P88028",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Eastholme Surgery",
+				"address1" : "32 Heaton Moor Road",
+				"address2" : "Heaton Moor",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Cheshire",
+				"postcode" : "SK4 4NX",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.eastholmesurgery.co.uk/",
+				"in1kmbuff" : "yes",
+				"calcarea" : 552.84
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1473357504, 53.3942409846 ]
+			},
+			"properties" : {
+				"org_id" : "24825",
+				"org_type" : "P88031",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Bracondale Medical Centre",
+				"address1" : "Bracondale House",
+				"address2" : "141 Buxton Road",
+				"address3" : "Heaviley",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK2 6EQ",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://bracondalemedical.co.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 222.02
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1583328942, 53.3971599969 ]
+			},
+			"properties" : {
+				"org_id" : "24827",
+				"org_type" : "P88034",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Dr Rachel Tomalin",
+				"address1" : "20 Meyer Street",
+				"address2" : "",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK3 8JE",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 88.5
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1652161757, 53.3591929587 ]
+			},
+			"properties" : {
+				"org_id" : "24829",
+				"org_type" : "P88041",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "The Village Surgery",
+				"address1" : "31 Bramhall Lane South",
+				"address2" : "Bramhall",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Cheshire",
+				"postcode" : "SK7 2DN",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 121.32
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.2292447562, 53.36988855 ]
+			},
+			"properties" : {
+				"org_id" : "24830",
+				"org_type" : "P88042",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Heald Green Health Centre",
+				"address1" : "Finney Lane",
+				"address2" : "Heald Green",
+				"address3" : "",
+				"city" : "Cheadle",
+				"county" : "Cheshire",
+				"postcode" : "SK8 3JD",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 706.63
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1317663158, 53.4281695654 ]
+			},
+			"properties" : {
+				"org_id" : "24831",
+				"org_type" : "P88043",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Brinnington Surgery",
+				"address1" : "Brinnington Road",
+				"address2" : "",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK5 8BS",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "www.brinningtonsurgeries.nhs.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 1118.61
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1140223115, 53.4229241251 ]
+			},
+			"properties" : {
+				"org_id" : "24832",
+				"org_type" : "P88044",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Bredbury Medical Centre",
+				"address1" : "1 Auburn Avenue",
+				"address2" : "Bredbury",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK6 2AH",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 334.93
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1435114333, 53.4180147731 ]
+			},
+			"properties" : {
+				"org_id" : "24833",
+				"org_type" : "P88600",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "The Surgery 1",
+				"address1" : "30 Brinnington Road",
+				"address2" : "Portwood",
+				"address3" : "Brinnington",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK1 2EX",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.thesurgery-30brinnington.nhs.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 64.65
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1558602947, 53.4000101095 ]
+			},
+			"properties" : {
+				"org_id" : "24835",
+				"org_type" : "P88632002",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Lowfield Surgery",
+				"address1" : "5 Lowfield Road",
+				"address2" : "Shaw Heath",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Cheshire",
+				"postcode" : "SK2 6RW",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 121.42
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.0898989924, 53.4150085258 ]
+			},
+			"properties" : {
+				"org_id" : "24837",
+				"org_type" : "P88607",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Dr Raina Patel",
+				"address1" : "Romiley Health Centre",
+				"address2" : "Chichester Road",
+				"address3" : "Romiley",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK6 4QR",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.guywoodpractice.co.uk/",
+				"in1kmbuff" : "yes",
+				"calcarea" : 772.23
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1574419098, 53.4223223947 ]
+			},
+			"properties" : {
+				"org_id" : "24838",
+				"org_type" : "P88610",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "South Reddish Medical Ctr 2",
+				"address1" : "Reddish Road",
+				"address2" : "South Reddish",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK5 7QU",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.southreddishmedicalcentre.co.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 356.85
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1434555353, 53.4180605016 ]
+			},
+			"properties" : {
+				"org_id" : "24839",
+				"org_type" : "P88615",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Dr Suvajit Chatterjee",
+				"address1" : "32 Brinnington Road",
+				"address2" : "Brinnington",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK1 2EX",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 90.98
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1696710137, 53.3888141702 ]
+			},
+			"properties" : {
+				"org_id" : "24840",
+				"org_type" : "P88617",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Adswood Road Surgery",
+				"address1" : "270 Adswood Road",
+				"address2" : "Adswood",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK3 8PN",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.adswoodsurgery.co.uk/",
+				"in1kmbuff" : "yes",
+				"calcarea" : 213.68
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.0741780599, 53.3648621761 ]
+			},
+			"properties" : {
+				"org_id" : "24843",
+				"org_type" : "P88623",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Dr Robert Mathewson",
+				"address1" : "The Village Green",
+				"address2" : "High Lane",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK6 8DR",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "www.hlmc.co.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 548.25
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.0996294758, 53.4263000445 ]
+			},
+			"properties" : {
+				"org_id" : "24844",
+				"org_type" : "P88624",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "BL Medical Practice",
+				"address1" : "1St Floor Woodley Health Centre",
+				"address2" : "Hyde Road",
+				"address3" : "Woodley Stockport",
+				"city" : "Stockport",
+				"county" : "Cheshire",
+				"postcode" : "SK6 1ND",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "www.bentslanemedicalpractice.co.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 1059.28
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.0996294758, 53.4263000445 ]
+			},
+			"properties" : {
+				"org_id" : "24845",
+				"org_type" : "P88625",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Archwood Medical Practice",
+				"address1" : "1St Floor, Woodley Health Centre",
+				"address2" : "Woodley",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK6 1ND",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.archwoodmp.co.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 1059.28
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1294163168, 53.3882455625 ]
+			},
+			"properties" : {
+				"org_id" : "24847",
+				"org_type" : "P88632001",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Stockport Medical Group (Great Moor)",
+				"address1" : "257 Dialstone Lane",
+				"address2" : "Great Moor",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Cheshire",
+				"postcode" : "SK2 7NA",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.stockportmedicalgroup.nhs.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 145.87
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1767396676, 53.4031175681 ]
+			},
+			"properties" : {
+				"org_id" : "24848",
+				"org_type" : "P88632",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Stockport Medical Group",
+				"address1" : "1-3 Avondale Road",
+				"address2" : "Edgeley",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK3 9NX",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.stockportmedicalgroup.nhs.uk",
+				"in1kmbuff" : "yes",
+				"calcarea" : 110.39
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1572603916, 53.422503757 ]
+			},
+			"properties" : {
+				"org_id" : "24849",
+				"org_type" : "P88005001",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "The Reddish Family Practices",
+				"address1" : "South Reddish Medical Centre",
+				"address2" : "Sandy Lane",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "0",
+				"postcode" : "SK5 7QU",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 278.24
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1531249156, 53.3940577517 ]
+			},
+			"properties" : {
+				"org_id" : "44468",
+				"org_type" : "Y00912",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Dr Hazem Lloyd",
+				"address1" : "82 Bramhall Lane",
+				"address2" : "",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Greater Manchester",
+				"postcode" : "SK2 6JG",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "",
+				"in1kmbuff" : "yes",
+				"calcarea" : 142.47
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -2.1221828218, 53.3824296578 ]
+			},
+			"properties" : {
+				"org_id" : "24836",
+				"org_type" : "P88606",
+				"type" : "GP",
+				"subtype" : "UNKNOWN",
+				"org_name" : "Springfield Surgery 4",
+				"address1" : "24-28 Commercial Road",
+				"address2" : "Hazel Grove",
+				"address3" : "",
+				"city" : "Stockport",
+				"county" : "Cheshire",
+				"postcode" : "SK7 4AA",
+				"district" : "Stockport District",
+				"parentodsc" : "01W",
+				"parentname" : "NHS Stockport CCG",
+				"website" : "http://www.springfieldsurgery-stockport.com",
+				"in1kmbuff" : "yes",
+				"calcarea" : 132.6
+			}
+		}
+	]
+}
