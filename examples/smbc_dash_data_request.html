@@ -141,7 +141,7 @@
 					mouseout: resetHighlight
 				});
 				if (feature.properties) {
-				layer.bindPopup("<b>Site ID: </b>" + feature.properties.Site_reference + "<br> <b> Site Name: </b>" + feature.properties.Site_name + "<br><br><b>Description: </b>" + feature.properties.Site_description + "<br><br> <b> Assessment Summary: </b>" + feature.properties.Assessment_summary + "<br>" + feature.properties.Assessment_text);
+				layer.bindPopup("<b>LSOA Code: </b>" + feature.properties.Code + "<br> <b> Name: </b>" + feature.properties.Name + "<br><br><b>Population: </b>" + feature.properties.Mid-2017_Population + "<br><br> <b> People per Sq.Kilometre </b>" + feature.properties.People_per_Sq_Km);
 					}		
 			}
 				
@@ -167,7 +167,7 @@
 				legend.onAdd = function (mymap) {
 
 			var div = L.DomUtil.create('div', 'info legend');
-			labels = ['<strong>Strategic Housing Land Availability Assessment</strong>'],
+			labels = ['<strong>Population Density</strong>'],
 			categories = ['The site is not currently developable.','The site is developable.','The site is deliverable.'];
 
 			for (var i = 0; i < categories.length; i++) {
@@ -182,7 +182,7 @@
 			return div;
     };
 			
-			legend.addTo(mymap);
+			//legend.addTo(mymap);
 			
 			L.control.layers(baseLayers, overlays).addTo(mymap)
 			
