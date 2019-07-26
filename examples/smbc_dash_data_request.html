@@ -81,19 +81,22 @@
 			
 			var borough = new L.GeoJSON.AJAX("../layers/boundary.geojson", {style: boroughboundarystyle}); 
 			
-			function getColor_shlaaassessment(d) {
-				switch 	(d) { 	case 'The site is not currently developable.' : 
-									return '#e31a1c' ;
-								case 'The site is developable.' : 
-									return '#ff7f00' ;
-								case 'The site is deliverable.' :
-									return '#33a02c' ;;
+			function getColor_peoplepersquarekilometre(d) {
+				switch 	(d) { 	
+                    return d < 15000 ? '#4a1486' :
+					return d < 10000 ? '#6a51a3' :
+					return d < 5000 ? '#807dba' :
+                    return d < 2000 ? '#9e9ac8' :
+                    return d < 1000 ? '#bcbddc' :
+                    return d < 500 ? '#dadaeb' :
+                                    '#f2f0f7';
+                                    ;
 							}
 						};
 						
-			function shlaa18style(feature) {
+			function populationdensitystyle(feature) {
 				return {
-					fillColor: getColor_shlaaassessment(feature.properties.Assessment_summary),
+					fillColor: getColor_peoplepersquarekilometre(feature.properties.People per Sq Km),
 					weight: 2,
 					opacity: 1,
 					color: 'black',
@@ -102,7 +105,7 @@
 					};
 				}
 			
-			var shlaa18;
+			var populationdensity;
 			
 			function highlightFeature(e) {
 				var layer = e.target;
@@ -145,7 +148,7 @@
 			}
 				
 			
-			shlaa18 = new L.GeoJSON.AJAX("../layers/shlaa18.json", {style: shlaa18style, onEachFeature: onEachFeature});
+			populationdensity = new L.GeoJSON.AJAX("../layers/mid 2017 lsoa population density estimate - stockport.geojson", {style: populationdensitystyle, onEachFeature: onEachFeature});
 
 			var baseLayers = {
 				"Streets": streets,
@@ -153,7 +156,7 @@
 			};
 			
 			var overlays = {
-				"SHLAA 2018": shlaa18
+				"Population Density Estimate mid-2017": populationdensity
 			};
 			
 			var mymap = L.map('mapid', {
