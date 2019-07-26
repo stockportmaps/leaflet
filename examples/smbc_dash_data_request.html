@@ -83,12 +83,12 @@
 			
 			function getColor_peoplepersquarekilometre(d) {
 				switch 	(d) { 	
-                    return d < 15000 ? '#4a1486' :
-					return d < 10000 ? '#6a51a3' :
-					return d < 5000 ? '#807dba' :
-                    return d < 2000 ? '#9e9ac8' :
-                    return d < 1000 ? '#bcbddc' :
-                    return d < 500 ? '#dadaeb' :
+                    return d > 15000 ? '#4a1486' :
+					return d > 10000 ? '#6a51a3' :
+					return d > 5000 ? '#807dba' :
+                    return d > 2000 ? '#9e9ac8' :
+                    return d > 1000 ? '#bcbddc' :
+                    return d > 500 ? '#dadaeb' :
                                     '#f2f0f7';
                                     ;
 							}
@@ -125,7 +125,7 @@
 			}
 			
 			function resetHighlight (e) {
-				shlaa18.resetStyle(e.target);
+				populationdensity.resetStyle(e.target);
 				info.update();
 			}
 			
