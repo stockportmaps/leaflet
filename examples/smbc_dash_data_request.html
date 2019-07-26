@@ -139,10 +139,10 @@
 				layer.on({
 					mouseover: highlightFeature,
                     mouseout: resetHighlight,
-                    click: popups
+                    click: zoomToFeature
 				});
-				//if (feature.properties) {
-				//layer.bindPopup("<b>LSOA Code: </b>" + feature.properties.Code + "<br> <b> Name: </b>" + feature.properties.Name + "<br> <b> People per Sq.Kilometre </b>" + feature.properties.People_per_Sq_Km);
+				if (feature.properties) {
+				layer.bindPopup("<b>LSOA Code: </b>" + feature.properties.Code + "<br> <b> Name: </b>" + feature.properties.Name + "<br> <b> People per Sq.Kilometre </b>" + feature.properties.People_per_Sq_Km);
 					}		
 				
 			
