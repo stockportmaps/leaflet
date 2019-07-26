@@ -132,17 +132,15 @@
 			}
 
 			function popups (feature, layer) {
-				layer.bindPopup("<b>Site ID: </b>" + feature.properties.Site_reference + "<br> <b> Site Name: </b>" + feature.properties.Site_name + "<br><br><b>Description: </b>" + feature.properties.Site_description + "<br><br> <b> Assessment Summary: </b>" + feature.properties.Assessment_summary + "<br>" + feature.properties.Assessment_text);
+				layer.bindPopup("<b>LSOA Code: </b>" + feature.properties.Code + "<br> <b> Name: </b>" + feature.properties.Name + "<br> <b> People per Sq.Kilometre </b>" + feature.properties.People_per_Sq_Km);
 			}
 
 			function onEachFeature(feature, layer) {
 				layer.on({
 					mouseover: highlightFeature,
-					mouseout: resetHighlight
-				});
-				if (feature.properties) {
-				layer.bindPopup("<b>LSOA Code: </b>" + feature.properties.Code + "<br> <b> Name: </b>" + feature.properties.Name + "<br> <b> People per Sq.Kilometre </b>" + feature.properties.People_per_Sq_Km);
-					}		
+                    mouseout: resetHighlight,
+                    click: popups
+				});	
 			}
 				
 			
