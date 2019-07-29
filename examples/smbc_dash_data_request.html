@@ -180,6 +180,12 @@
 			div.innerHTML = labels.join('<br>');
 			return div;
         };
+			
+			//legend.addTo(mymap);
+			
+			L.control.layers(baseLayers, overlays).addTo(mymap)
+			
+			info.addTo(mymap);
 
 			var layerToLegendMapping={
   				"Population Density": legend
@@ -197,12 +203,6 @@
 			
 			mymap.on('overlayadd',legendAdd);
 			mymap.on('overlayremove',legendRemove);
-			
-			//legend.addTo(mymap);
-			
-			L.control.layers(baseLayers, overlays).addTo(mymap)
-			
-			info.addTo(mymap);
 			
 		</script>
 	
