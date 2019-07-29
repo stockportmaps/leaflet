@@ -180,6 +180,24 @@
 			div.innerHTML = labels.join('<br>');
 			return div;
         };
+
+			var layerToLegendMapping={
+  				"Housing": houselegend,
+  				"Families": childlegend
+			}
+			
+			function legendAdd(event) {
+  				var layername = event.name;
+  					map.addControl(layerToLegendMapping[layername]);
+			}
+
+			function legendRemove(event) {
+  				var layername = event.name;
+  					map.removeControl(layerToLegendMapping[layername]);
+			}
+			
+			map.on('overlayadd',legendAdd);
+			map.on('overlayremove',legendRemove);
 			
 			//legend.addTo(mymap);
 			
