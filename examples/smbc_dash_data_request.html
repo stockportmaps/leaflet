@@ -1,0 +1,212 @@
+<html>
+	
+	<title>SMBC Dashboard Data Request - Inception Meeting</title>
+
+	<head>
+	
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+		integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+		crossorigin=""/>
+		
+		<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+		
+		<script src="../leaflet.ajax.min.js"></script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.00">
+		
+		<style> .info {
+		    padding: 6px 8px;
+			font: 14px/16px Arial, Helvetica, sans-serif;
+			background: white;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			border-radius: 5px;
+}
+				.info h4 {
+			margin: 0 0 5px;
+			color: #777;
+}
+				.legend {
+			text-align: left;
+			line-height: 18px;
+			color: #555;
+}
+				.legend i {
+			width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.7; 
+}
+		
+		</style>
+
+	</head>
+	
+	<body>
+	
+		<div id="mapid" style="width: 100%; height: 100%;"></div>
+		
+		<script>
+			
+			var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+			mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+			
+			var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr, maxZoom:20}),
+				streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr, maxZoom:20});
+	
+			var info = L.control();
+			
+			info.onAdd = function (mymap) {
+				this._div = L.DomUtil.create('div','info');
+				this.update();
+				return this._div;
+			};
+			
+			info.update = function (props) {
+				this._div.innerHTML = '<h4> Data Dashboard Data Provision </h4>' + (props ?
+					'<b>' + props.Site_reference + '</b><br />' + 'Site Name: ' + props.Site_name + '<br />'
+					: 'Hover over a map marker for information, or click for more detail');
+				};
+					
+			var boroughboundarystyle ={
+				"color": "#000000",
+				"weight": 4,
+				"opacity": 1,
+				"fillColor":"#000000",
+				"fillOpacity": 0
+				};			
+			
+			var borough = new L.GeoJSON.AJAX("../layers/boundary.geojson", {style: boroughboundarystyle}); 
+			
+			function getColor_peoplepersquarekilometre(d) { 	
+                    return  d > 15000 ? '#4a1486' :
+					        d > 10000 ? '#6a51a3' :
+					        d > 5000 ? '#807dba' :
+                            d > 2000 ? '#9e9ac8' :
+                            d > 1000 ? '#bcbddc' :
+                            d > 500 ? '#dadaeb' :
+                                    '#f2f0f7';
+                                    ;
+						        }
+						
+			function populationdensitystyle(feature) {
+				return {
+					fillColor: getColor_peoplepersquarekilometre(feature.properties.People_per_Sq_Km),
+					weight: 2,
+					opacity: 1,
+					color: 'black',
+					dashArray: '3',
+					fillOpacity: 0.5
+					};
+				}
+			
+			var populationdensity;
+			
+			function highlightFeature(e) {
+				var layer = e.target;
+				
+				layer.setStyle({
+					weight: 5,
+					color: '#666',
+					dashArray: '',
+					fillOpacity: 0.7
+				});
+				
+				if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+					layer.bringToFront();
+				}
+				
+				info.update(layer.feature.properties);
+			}
+			
+			function resetHighlight (e) {
+				populationdensity.resetStyle(e.target);
+				info.update();
+			}
+			
+			function zoomToFeature (e) {
+				mymap.fitBounds(e.target.getBounds());
+			}
+
+			function popups (feature) {
+				layer.bindPopup("<b>LSOA Code: </b>" + feature.properties.Code + "<br> <b> Name: </b>" + feature.properties.Name + "<br> <b> People per Sq.Kilometre </b>" + feature.properties.People_per_Sq_Km);
+			}
+
+			function onEachFeature(feature, layer) {
+				layer.on({
+					mouseover: highlightFeature,
+                    mouseout: resetHighlight
+				});
+				if (feature.properties) {
+				layer.bindPopup("<b>LSOA Code: </b>" + feature.properties.Code + "<br> <b> Name: </b>" + feature.properties.Name + "<br> <b> People per Sq.Kilometre </b>" + feature.properties.People_per_Sq_Km);
+					}		
+            }
+			
+			populationdensity = new L.GeoJSON.AJAX("../layers/mid 2017 lsoa population density estimate -stockport.geojson", {style: populationdensitystyle, onEachFeature: onEachFeature});
+
+			var baseLayers = {
+				"Streets": streets,
+				"Grayscale": grayscale
+			};
+			
+			var overlays = {
+				"Population Density Estimate mid-2017": populationdensity
+			};
+			
+			var mymap = L.map('mapid', {
+			center: [53.390784,-2.119261],
+			zoom: 12,
+			layers:[streets, borough]
+			});
+
+			var legend = L.control({position: 'bottomright'});
+				legend.onAdd = function (mymap) {
+
+			var div = L.DomUtil.create('div', 'info legend');
+			grades = [500, 1000, 2000, 5000, 10000, 15000],
+			labels = [],
+			from, to;
+			
+			for (var i = 0; i < categories.length; i++) {
+
+            div.innerHTML += 
+            labels.push(
+                '<i class="circle" style="background:' + getColor_peoplepersquarekilometre(categories[i]) + '"></i> ' +
+            (categories[i] ? categories[i] : '+'));
+
+        }
+			div.innerHTML = labels.join('<br>');
+			return div;
+        };
+			
+			//legend.addTo(mymap);
+			
+			L.control.layers(baseLayers, overlays).addTo(mymap)
+			
+			info.addTo(mymap);
+
+			var layerToLegendMapping={
+  				"Population Density": legend
+			}
+			
+			function legendAdd(event) {
+  				var layername = event.name;
+  					mymap.addControl(layerToLegendMapping[layername]);
+			}
+
+			function legendRemove(event) {
+  				var layername = event.name;
+  					mymap.removeControl(layerToLegendMapping[layername]);
+			}
+			
+			mymap.on('overlayadd',legendAdd);
+			mymap.on('overlayremove',legendRemove);
+			
+		</script>
+	
+	</body>
+
+</html>
