@@ -187,16 +187,16 @@
 			
 			function legendAdd(event) {
   				var layername = event.name;
-  					map.addControl(layerToLegendMapping[layername]);
+  					mymap.addControl(layerToLegendMapping[layername]);
 			}
 
 			function legendRemove(event) {
   				var layername = event.name;
-  					map.removeControl(layerToLegendMapping[layername]);
+  					mymap.removeControl(layerToLegendMapping[layername]);
 			}
 			
-			map.on('overlayadd',legendAdd);
-			map.on('overlayremove',legendRemove);
+			mymap.on('overlayadd',legendAdd);
+			mymap.on('overlayremove',legendRemove);
 			
 			//legend.addTo(mymap);
 			
