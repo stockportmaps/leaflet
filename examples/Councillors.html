@@ -165,7 +165,7 @@
 			var mymap = L.map('mapid', {
 			center: [53.390784,-2.119261],
 			zoom: 12,
-			layers:[streets, borough, wards]
+			layers:[streets, borough, wards, postcode]
 			});
 			var legend = L.control({position: 'bottomright'});
 				legend.onAdd = function (mymap) {
@@ -192,8 +192,8 @@
 		layer: postcode,                //layer name to search
 		propertyName: 'postcode',         //Search field
     
-		moveToLocation: function(latlng, title, map) {
-		map.setView(latlng, 18);    // set the zoom
+		moveToLocation: function(latlng, title, mymap) {
+		mymap.setView(latlng, 18);    // set the zoom
 	}});
 	
 	mymap.addControl( searchControl );
